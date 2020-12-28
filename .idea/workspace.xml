@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="008f593c-c740-41fa-8a30-28e44268bd5e" name="Default Changelist" comment="相交链表">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linked/CrossLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linked/CrossLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linked/test/LinkList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linked/test/LinkList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linked/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linked/test/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +110,7 @@
       <workItem from="1608652140016" duration="4111000" />
       <workItem from="1608729581361" duration="776000" />
       <workItem from="1608946015241" duration="3975000" />
-      <workItem from="1609163881601" duration="5298000" />
+      <workItem from="1609163881601" duration="7109000" />
     </task>
     <task id="LOCAL-00001" summary="gitgnore">
       <created>1609169154070</created>
@@ -124,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609169210782</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="...">
+      <created>1609169597936</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1609169597936</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,17 +155,22 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="gitgnore" />
     <MESSAGE value="相交链表" />
-    <option name="LAST_COMMIT_MESSAGE" value="相交链表" />
+    <MESSAGE value="..." />
+    <option name="LAST_COMMIT_MESSAGE" value="..." />
   </component>
   <component name="WindowStateProjectService">
+    <state x="552" y="181" key="#Inspections" timestamp="1609170985642">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="181" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1609170985642" />
     <state x="765" y="227" key="#com.intellij.ide.util.MemberChooser" timestamp="1608655885263">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="227" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1608655885263" />
-    <state x="685" y="137" key="CommitChangelistDialog2" timestamp="1609169549062">
+    <state x="685" y="137" key="CommitChangelistDialog2" timestamp="1609169596439">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="685" y="137" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1609169549062" />
+    <state x="685" y="137" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1609169596439" />
     <state width="482" height="466" key="DebuggerActiveHint" timestamp="1609167622595">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -197,10 +211,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="769" y="233" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609169274231" />
-    <state x="552" y="244" key="Vcs.Push.Dialog.v2" timestamp="1609169212289">
+    <state x="552" y="244" key="Vcs.Push.Dialog.v2" timestamp="1609169599328">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="244" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1609169212289" />
+    <state x="552" y="244" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1609169599328" />
     <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1609164006030">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -209,9 +223,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="719" y="360" key="git4idea.ui.GitUnstashDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609169376448" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1608654806639">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1609169636308">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1608654806639" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1609169636308" />
   </component>
 </project>
