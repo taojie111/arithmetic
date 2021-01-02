@@ -9,7 +9,7 @@ public class MyLinkedList {
 
     public int[] stringToIntegerArray(String input) {
         input = input.trim();
-        input = input.substring(1, input.length() - 1);
+        input = input.substring(0, input.length());
         if (input.length() == 0) {
             return new int[0];
         }

@@ -5,18 +5,27 @@ import linked.commom.MyLinkedList;
 
 public class Test {
 
-    public static ListNode test(ListNode headA, ListNode headB) {
-        if (headA == null || headB == null) {
-            return null;
+    public static void main(String[] args) {
+        System.out.println(factorial(5));
+    }
+
+
+    public static int factorial(int i) {
+        if (i == 1) {
+            return 1;
         }
-        ListNode pA = headA;
-        ListNode pB = headB;
-        while (pA != pB ) {
-            pA = pA == null ? headB : pA.next;
-            pB = pB == null ? headA : pB.next;
+        int m = factorial(i-1);
+        int returnVal = i*m;
+        return  returnVal;
+    }
+
+    public static int Chebonacci(int i) {
+        if (i == 1 || i== 2) {
+            return 1;
         }
-        System.out.println(pA.data);
-        return pA;
+        int m = Chebonacci(i-1);
+        int n = Chebonacci(i-2);
+        return m + n;
     }
 }
 

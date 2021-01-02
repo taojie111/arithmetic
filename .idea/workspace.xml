@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="008f593c-c740-41fa-8a30-28e44268bd5e" name="Default Changelist" comment="相交链表">
+    <list default="true" id="008f593c-c740-41fa-8a30-28e44268bd5e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/linked/ReverseLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/linked/CrossLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linked/CrossLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linked/test/LinkList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linked/test/LinkList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linked/commom/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linked/commom/MyLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/linked/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linked/test/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,13 +52,26 @@
       <recent name="E:\project\github\arithmetic" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CrossLinkedList">
+  <component name="RunManager" selected="Application.Test">
     <configuration name="CrossLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="linked.CrossLinkedList" />
       <module name="arithmetic" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="linked.commom.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReverseLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linked.ReverseLinkedList" />
+      <module name="arithmetic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="linked.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,8 +94,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CrossLinkedList" />
         <item itemvalue="Application.Test" />
+        <item itemvalue="Application.ReverseLinkedList" />
+        <item itemvalue="Application.CrossLinkedList" />
       </list>
     </recent_temporary>
   </component>
@@ -110,7 +125,9 @@
       <workItem from="1608652140016" duration="4111000" />
       <workItem from="1608729581361" duration="776000" />
       <workItem from="1608946015241" duration="3975000" />
-      <workItem from="1609163881601" duration="7109000" />
+      <workItem from="1609163881601" duration="7139000" />
+      <workItem from="1609333406575" duration="10401000" />
+      <workItem from="1609595199016" duration="9170000" />
     </task>
     <task id="LOCAL-00001" summary="gitgnore">
       <created>1609169154070</created>
@@ -133,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609169597936</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="。。。">
+      <created>1609171180145</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1609171180145</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,7 +168,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -156,7 +182,8 @@
     <MESSAGE value="gitgnore" />
     <MESSAGE value="相交链表" />
     <MESSAGE value="..." />
-    <option name="LAST_COMMIT_MESSAGE" value="..." />
+    <MESSAGE value="。。。" />
+    <option name="LAST_COMMIT_MESSAGE" value="。。。" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="181" key="#Inspections" timestamp="1609170985642">
@@ -167,58 +194,62 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="227" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1608655885263" />
-    <state x="685" y="137" key="CommitChangelistDialog2" timestamp="1609169596439">
+    <state x="940" y="283" width="945" height="585" key="#xdebugger.evaluate" timestamp="1609339686339">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="685" y="137" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1609169596439" />
-    <state width="482" height="466" key="DebuggerActiveHint" timestamp="1609167622595">
+    <state x="940" y="283" width="945" height="585" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1609339686339" />
+    <state x="685" y="137" key="CommitChangelistDialog2" timestamp="1609171178619">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="482" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1609167622595" />
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1609169163826">
+    <state x="685" y="137" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1609171178619" />
+    <state width="482" height="466" key="DebuggerActiveHint" timestamp="1609600182134">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1609169163826" />
-    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1609169163826">
+    <state width="482" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1609600182134" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1609609981384">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1609169163826" />
-    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1609169163826">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1609609981384" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1609609981384">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1609169163826" />
-    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1609169163826">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1609609981384" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1609609981384">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1609169163826" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1609169163826">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1609609981384" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1609609981384">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1609169163826" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1609169163826">
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1609609981384" />
+    <state width="1877" height="243" key="GridCell.Tab.1.bottom" timestamp="1609609928158">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1609169163826" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1609169163826">
+    <state width="1877" height="243" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1609609928158" />
+    <state width="1877" height="243" key="GridCell.Tab.1.center" timestamp="1609609928158">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1609169163826" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1609169163826">
+    <state width="1877" height="243" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1609609928158" />
+    <state width="1877" height="243" key="GridCell.Tab.1.left" timestamp="1609609928157">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1609169163826" />
+    <state width="1877" height="243" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1609609928157" />
+    <state width="1877" height="243" key="GridCell.Tab.1.right" timestamp="1609609928158">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="243" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1609609928158" />
     <state x="769" y="233" key="RollbackChangesDialog" timestamp="1609169274231">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="769" y="233" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609169274231" />
-    <state x="552" y="244" key="Vcs.Push.Dialog.v2" timestamp="1609169599328">
+    <state x="552" y="244" key="Vcs.Push.Dialog.v2" timestamp="1609171181723">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="244" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1609169599328" />
-    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1609164006030">
+    <state x="552" y="244" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1609171181723" />
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1609595204179">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609164006030" />
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609595204179" />
     <state x="719" y="360" key="git4idea.ui.GitUnstashDialog" timestamp="1609169376448">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -227,5 +258,16 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1609169636308" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/linked/ReverseLinkedList.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -12,25 +12,21 @@ public class CrossLinkedList {
 
     public static void main(String[] args) throws IOException {
         MyLinkedList myLinkedList = new MyLinkedList();
-        // 输入[4,1]、[5,6,1]、[8,4,5],构造两个相交链表[4,1,8,4,5]、[5,6,1,8,4,5],相交点为8
-        BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
-        String line;
-        while ((line = in.readLine()) != null) {
-            ListNode listA = myLinkedList.stringToListNode(line);
-            line = in.readLine();
-            ListNode listB = myLinkedList.stringToListNode(line);
-            line = in.readLine();
-            ListNode listC = myLinkedList.stringToListNode(line);
-            listA.next = listC;
-            listB.next = listC;
-            ListNode headA = new ListNode(0);
-            headA.next = listA;
-            ListNode headB = new ListNode(1);
-            headB.next = listB;
-            ListNode ret = getIntersectionNode(headA, headB);
-            String out = myLinkedList.listNodeToString(ret);
-            System.out.print(out);
-        }
+        // 输入4,1、5,6,1、8,4,5,构造两个相交链表4,1,8,4,5、5,6,1,8,4,5,相交点为8
+        String str1 = "4,1";
+        String str2 = "5,6,1";
+        String str3 = "8,4,5";
+        ListNode listA = myLinkedList.stringToListNode(str1);
+        ListNode listB = myLinkedList.stringToListNode(str2);
+        ListNode listC = myLinkedList.stringToListNode(str3);
+        listA.next = listC;
+        listB.next = listC;
+        ListNode headA = new ListNode(0);
+        headA.next = listA;
+        ListNode headB = new ListNode(1);
+        headB.next = listB;
+        ListNode ret = getIntersectionNode(headA, headB);
+        String out = myLinkedList.listNodeToString(ret);
     }
 
     /*
