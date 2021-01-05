@@ -27,5 +27,14 @@ public class Test {
         int n = Chebonacci(i-2);
         return m + n;
     }
+
+    public static ListNode reverse(ListNode head) {
+        if (head == null || head.next == null) {
+            return head;
+        }
+        ListNode node = reverse(head.next);
+        node.next = head;
+        return node;
+    }
 }
 
