@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="008f593c-c740-41fa-8a30-28e44268bd5e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/linked/OddEvenList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/linked/SplitListToParts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hash/ContainsDuplicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hash/FindLHS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hash/LongestConsecutive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hash/TwoSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stackqueue/CharValid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stackqueue/DailyTemperatures.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stackqueue/MinStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stackqueue/MyQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stackqueue/MyStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stackqueue/NextGreaterElements.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,13 +58,13 @@
       <recent name="E:\project\github\arithmetic" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.OddEvenList">
-    <configuration name="AddTwoNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linked.AddTwoNumbers" />
+  <component name="RunManager" selected="Application.LongestConsecutive">
+    <configuration name="ContainsDuplicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hash.ContainsDuplicate" />
       <module name="arithmetic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="linked.*" />
+          <option name="PATTERN" value="hash.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -64,12 +72,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OddEvenList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linked.OddEvenList" />
+    <configuration name="FindLHS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hash.FindLHS" />
       <module name="arithmetic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="linked.*" />
+          <option name="PATTERN" value="hash.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linked.Palindrome" />
+    <configuration name="LongestConsecutive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hash.LongestConsecutive" />
       <module name="arithmetic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="linked.*" />
+          <option name="PATTERN" value="hash.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SplitListToParts" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linked.SplitListToParts" />
+    <configuration name="NextGreaterElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stackqueue.NextGreaterElements" />
       <module name="arithmetic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="linked.*" />
+          <option name="PATTERN" value="stackqueue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SwapPairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linked.SwapPairs" />
+    <configuration name="TwoSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hash.TwoSum" />
       <module name="arithmetic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="linked.*" />
+          <option name="PATTERN" value="hash.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.OddEvenList" />
-        <item itemvalue="Application.SplitListToParts" />
-        <item itemvalue="Application.Palindrome" />
-        <item itemvalue="Application.AddTwoNumbers" />
-        <item itemvalue="Application.SwapPairs" />
+        <item itemvalue="Application.LongestConsecutive" />
+        <item itemvalue="Application.FindLHS" />
+        <item itemvalue="Application.ContainsDuplicate" />
+        <item itemvalue="Application.TwoSum" />
+        <item itemvalue="Application.NextGreaterElements" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +170,11 @@
       <workItem from="1610545115240" duration="8985000" />
       <workItem from="1610629744128" duration="3125000" />
       <workItem from="1611064308457" duration="6432000" />
-      <workItem from="1611152909735" duration="357000" />
+      <workItem from="1611152909735" duration="6795000" />
+      <workItem from="1611240424658" duration="5980000" />
+      <workItem from="1611582320394" duration="9276000" />
+      <workItem from="1611807514677" duration="1455000" />
+      <workItem from="1611894945409" duration="1494000" />
     </task>
     <task id="LOCAL-00001" summary="gitgnore">
       <created>1609169154070</created>
@@ -220,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610559094973</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="链表提交">
+      <created>1611153291295</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1611153291295</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,6 +248,31 @@
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:E:/project/github/arithmetic/.idea" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State>
@@ -237,6 +281,11 @@
           </value>
         </entry>
       </map>
+    </option>
+    <option name="OPEN_TABS">
+      <set>
+        <option value="1" />
+      </set>
     </option>
   </component>
   <component name="VcsManagerConfiguration">
@@ -247,7 +296,8 @@
     <MESSAGE value="..." />
     <MESSAGE value="。。。" />
     <MESSAGE value="反转链表" />
-    <option name="LAST_COMMIT_MESSAGE" value="反转链表" />
+    <MESSAGE value="链表提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="链表提交" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="181" key="#Inspections" timestamp="1609170985642">
@@ -262,46 +312,46 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="940" y="283" width="945" height="585" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1609339686339" />
-    <state x="685" y="137" key="CommitChangelistDialog2" timestamp="1610559092066">
+    <state x="685" y="137" key="CommitChangelistDialog2" timestamp="1611153288233">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="685" y="137" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1610559092066" />
-    <state width="518" height="466" key="DebuggerActiveHint" timestamp="1611070141448">
+    <state x="685" y="137" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1611153288233" />
+    <state width="519" height="466" key="DebuggerActiveHint" timestamp="1611895351743">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="518" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1611070141448" />
-    <state width="1877" height="243" key="GridCell.Tab.0.bottom" timestamp="1611073693828">
+    <state width="519" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1611895351743" />
+    <state width="1877" height="373" key="GridCell.Tab.0.bottom" timestamp="1611895517080">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="243" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1611073693828" />
-    <state width="1877" height="243" key="GridCell.Tab.0.center" timestamp="1611073693828">
+    <state width="1877" height="373" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1611895517080" />
+    <state width="1877" height="373" key="GridCell.Tab.0.center" timestamp="1611895517080">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="243" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1611073693828" />
-    <state width="1877" height="243" key="GridCell.Tab.0.left" timestamp="1611073693828">
+    <state width="1877" height="373" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1611895517080" />
+    <state width="1877" height="373" key="GridCell.Tab.0.left" timestamp="1611895517080">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="243" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1611073693828" />
-    <state width="1877" height="243" key="GridCell.Tab.0.right" timestamp="1611073693828">
+    <state width="1877" height="373" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1611895517080" />
+    <state width="1877" height="373" key="GridCell.Tab.0.right" timestamp="1611895517080">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="243" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1611073693828" />
-    <state width="1877" height="243" key="GridCell.Tab.1.bottom" timestamp="1611073693828">
+    <state width="1877" height="373" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1611895517080" />
+    <state width="1877" height="373" key="GridCell.Tab.1.bottom" timestamp="1611895517759">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="243" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1611073693828" />
-    <state width="1877" height="243" key="GridCell.Tab.1.center" timestamp="1611073693828">
+    <state width="1877" height="373" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1611895517759" />
+    <state width="1877" height="373" key="GridCell.Tab.1.center" timestamp="1611895517759">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="243" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1611073693828" />
-    <state width="1877" height="243" key="GridCell.Tab.1.left" timestamp="1611073693828">
+    <state width="1877" height="373" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1611895517759" />
+    <state width="1877" height="373" key="GridCell.Tab.1.left" timestamp="1611895517759">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="243" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1611073693828" />
-    <state width="1877" height="243" key="GridCell.Tab.1.right" timestamp="1611073693828">
+    <state width="1877" height="373" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1611895517759" />
+    <state width="1877" height="373" key="GridCell.Tab.1.right" timestamp="1611895517759">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="243" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1611073693828" />
+    <state width="1877" height="373" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1611895517759" />
     <state x="769" y="233" key="RollbackChangesDialog" timestamp="1609169274231">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -310,22 +360,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1609940358043" />
-    <state x="552" y="244" key="Vcs.Push.Dialog.v2" timestamp="1610559096659">
+    <state x="552" y="244" key="Vcs.Push.Dialog.v2" timestamp="1611153293649">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="244" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1610559096659" />
-    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1611153257797">
+    <state x="552" y="244" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1611153293649" />
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1611582322134">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1611153257797" />
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1611582322134" />
     <state x="719" y="360" key="git4idea.ui.GitUnstashDialog" timestamp="1609169376448">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="719" y="360" key="git4idea.ui.GitUnstashDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609169376448" />
-    <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1611070317318">
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1611589492087">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1611070317318" />
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1611589492087" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1610464465914">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -363,6 +413,31 @@
           <url>file://$PROJECT_DIR$/src/linked/SplitListToParts.java</url>
           <line>26</line>
           <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/stackqueue/MinStack.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/stackqueue/NextGreaterElements.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://C:/Program Files/Java/jdk1.8.0_271/src.zip!/java/util/Vector.java</url>
+          <line>601</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/hash/FindLHS.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/hash/LongestConsecutive.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="62" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
