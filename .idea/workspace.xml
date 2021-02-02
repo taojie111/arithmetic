@@ -1,16 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="008f593c-c740-41fa-8a30-28e44268bd5e" name="Default Changelist" comment="链表提交">
-      <change afterPath="$PROJECT_DIR$/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/characterstring/CountBinarySubstrings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/characterstring/CountSubstrings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/characterstring/IsAnagram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/characterstring/IsIsomorphic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/characterstring/IsPalindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/characterstring/LongestPalindrome.java" afterDir="false" />
+    <list default="true" id="008f593c-c740-41fa-8a30-28e44268bd5e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hash/LongestConsecutive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hash/LongestConsecutive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/characterstring/CountBinarySubstrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/characterstring/CountBinarySubstrings.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,7 +170,7 @@
       <workItem from="1611807514677" duration="1455000" />
       <workItem from="1611894945409" duration="1586000" />
       <workItem from="1612183186351" duration="13668000" />
-      <workItem from="1612272292890" duration="7999000" />
+      <workItem from="1612272292890" duration="8057000" />
     </task>
     <task id="LOCAL-00001" summary="gitgnore">
       <created>1609169154070</created>
@@ -249,7 +242,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611900179706</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="字符串算法">
+      <created>1612283821320</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1612283821320</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -307,7 +307,8 @@
     <MESSAGE value="。。。" />
     <MESSAGE value="反转链表" />
     <MESSAGE value="链表提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="链表提交" />
+    <MESSAGE value="字符串算法" />
+    <option name="LAST_COMMIT_MESSAGE" value="字符串算法" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="181" key="#Inspections" timestamp="1609170985642">
@@ -326,10 +327,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="940" y="283" width="945" height="585" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1609339686339" />
-    <state x="685" y="137" key="CommitChangelistDialog2" timestamp="1612283782085">
+    <state x="685" y="137" key="CommitChangelistDialog2" timestamp="1612283818554">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="685" y="137" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1612283782085" />
+    <state x="685" y="137" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1612283818554" />
     <state width="519" height="466" key="DebuggerActiveHint" timestamp="1612283650747">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -374,10 +375,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1609940358043" />
-    <state x="552" y="244" key="Vcs.Push.Dialog.v2" timestamp="1611900181299">
+    <state x="552" y="244" key="Vcs.Push.Dialog.v2" timestamp="1612283823069">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="244" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1611900181299" />
+    <state x="552" y="244" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1612283823069" />
     <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1612272291456">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -469,17 +470,17 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/characterstring/CountBinarySubstrings.java</url>
-          <line>22</line>
+          <line>23</line>
           <option name="timeStamp" value="77" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/characterstring/CountBinarySubstrings.java</url>
-          <line>38</line>
+          <line>39</line>
           <option name="timeStamp" value="78" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/characterstring/CountBinarySubstrings.java</url>
-          <line>78</line>
+          <line>80</line>
           <option name="timeStamp" value="79" />
         </line-breakpoint>
       </breakpoints>

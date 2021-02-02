@@ -15,6 +15,7 @@ public class CountBinarySubstrings {
         System.out.println(result);
     }
 
+    // 自己的解法
     public static int doCountBinarySubstrings(String param) {
         int length = param.length();
         char[] arr = param.toCharArray();
@@ -63,6 +64,7 @@ public class CountBinarySubstrings {
         return result;
     }
 
+    // 官方的解法
     public static int countBinarySubstrings(String s) {
         List<Integer> counts = new ArrayList<Integer>();
         int ptr = 0, n = s.length();
