@@ -1,4 +1,4 @@
-package characterstring;
+package characterString;
 
 import java.util.HashMap;
 import java.util.Map;
