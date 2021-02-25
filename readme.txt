@@ -6,3 +6,5 @@
 6、2的幂（https://leetcode-cn.com/problems/power-of-two/description/）（IsPowerOfTwo.java）
 7、4的幂（https://leetcode-cn.com/problems/power-of-four/）（IsPowerOfFour.java）
 8、数字的补数（https://leetcode-cn.com/problems/number-complement/）（FindComplement.java）
+9、两整数之和（https://leetcode-cn.com/problems/sum-of-two-integers/）（GetSum.java）
+9、最大单词长度乘积（https://leetcode-cn.com/problems/maximum-product-of-word-lengths/）（MaxProduct.java）
