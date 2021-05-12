@@ -31,4 +31,45 @@ public class Test {
         }
     }
 
+    public static int bf(String ts, String ps) {
+        char[] t = ts.toCharArray();
+        char[] p = ps.toCharArray();
+        // 主串的位置
+        int i = 0;
+        // 模式串的位置
+        int j = 0;
+        while (i < t.length && j < p.length) {
+            // 当两个字符相同，就比较下一个
+            if (t[i] == p[j]) {
+                i++;
+                j++;
+            } else {
+                // 一旦不匹配，i后退
+                i = i - j + 1;
+                // j归0
+                j = 0;
+            }
+        }
+        if (j == p.length) {
+            return i - j;
+        } else {
+            return -1;
+        }
+    }
+
+    public static int[] getNext(String ps) {
+        char[] p = ps.toCharArray();
+        int[] next = new int[p.length];
+        next[0] = -1;
+        int j = 0;
+        int k = -1;
+        while (j < p.length - 1) {
+            if (k == -1 || p[j] == p[k]) {
+                next[++j] = ++k;
+            } else {
+                k = next[k];
+            }
+        }
+        return next;
+    }
 }

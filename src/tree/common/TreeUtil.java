@@ -199,4 +199,44 @@ public class TreeUtil {
         node.setRight(node22);
         return node;
     }
+
+    public static TreeNode getTree10() {
+        TreeNode node = new TreeNode();
+        node.setValue(3);
+        TreeNode node21 = new TreeNode();
+        node21.setValue(9);
+        TreeNode node22 = new TreeNode();
+        node22.setValue(20);
+        node.setLeft(node21);
+        node.setRight(node22);
+        TreeNode node31 = new TreeNode();
+        node31.setValue(15);
+        TreeNode node32 = new TreeNode();
+        node32.setValue(7);
+        node22.setLeft(node31);
+        node22.setRight(node32);
+        return node;
+    }
+
+    public static TreeNode getTree11() {
+        TreeNode node = new TreeNode();
+        node.setValue(2);
+
+        TreeNode node21 = new TreeNode();
+        node21.setValue(3);
+        node.setRight(node21);
+
+        TreeNode node31 = new TreeNode();
+        node31.setValue(4);
+        node21.setRight(node31);
+
+        TreeNode node41 = new TreeNode();
+        node41.setValue(5);
+        node31.setRight(node41);
+
+        TreeNode node51 = new TreeNode();
+        node51.setValue(6);
+        node41.setRight(node51);
+        return node;
+    }
 }
