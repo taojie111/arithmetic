@@ -14,3 +14,4 @@
 14、路径总和（https://leetcode-cn.com/problems/path-sum/）（HasPathSum.java）（迭代也可以遍历树的所有节点）
 15、路径总和 III（https://leetcode-cn.com/problems/path-sum-iii/）（PathSum.java）
 16、另一个树的子树（https://leetcode-cn.com/problems/subtree-of-another-tree/）（IsSubtree.java）(kmp算法)
+17、最长同值路径（https://leetcode-cn.com/problems/longest-univalue-path/）（LongestUnivaluePath.java）
