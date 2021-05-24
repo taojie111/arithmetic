@@ -1,10 +1,7 @@
 public class Test {
 
     public static void main(String[] args) {
-        int[] arr = new int[]{3,2,6,5};
-        int len = arr.length;
-        int[] result = new int[len];
-        merge_sort_recursive(arr, result, 0, len - 1);
+        System.out.println(Integer.toBinaryString(97));
     }
 
     static void merge_sort_recursive(int[] arr, int[] result, int start, int end) {
