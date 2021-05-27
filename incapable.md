@@ -15,3 +15,5 @@
 15. 路径总和 III（https://leetcode-cn.com/problems/path-sum-iii/）（PathSum.java）
 16. 另一个树的子树（https://leetcode-cn.com/problems/subtree-of-another-tree/）（IsSubtree.java）(kmp算法)
 17. 最长同值路径（https://leetcode-cn.com/problems/longest-univalue-path/）（LongestUnivaluePath.java）
+18. 修剪二叉搜索树（https://leetcode-cn.com/problems/trim-a-binary-search-tree/）（TrimBST.java）
+19. 二叉搜索树的最近公共祖先（https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-search-tree/）（LowestCommonAncestor.java）

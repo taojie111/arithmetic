@@ -14,7 +14,7 @@ import java.util.List;
 public class PostorderTraversal {
 
     public static void main(String[] args) {
-        List<Integer> result = doTest(TreeUtil.getTree16());
+        List<Integer> result = postOrderWithIterate(TreeUtil.getTree16());
         System.out.println(result);
     }
 
@@ -28,9 +28,9 @@ public class PostorderTraversal {
         if (root == null) {
             return;
         }
-        res.add(root.getValue());
         postOrder(root.getLeft(), res);
         postOrder(root.getRight(), res);
+        res.add(root.getValue());
     }
 
     public static List<Integer> postOrderWithIterate(TreeNode root) {
@@ -38,23 +38,42 @@ public class PostorderTraversal {
         if (root == null) {
             return res;
         }
-        Deque<TreeNode> stack = new LinkedList<TreeNode>();
-        TreeNode node = root;
-        while (!stack.isEmpty() || node != null) {
-            while (node != null) {
-                stack.push(node);
-                root = root.getLeft();
+        TreeNode p1 = root, p2 = null;
+        while (p1 != null) {
+            p2 = p1.getLeft();
+            if (p2 != null) {
+                while (p2.getRight() != null && p2.getRight() != p1) {
+                    p2 = p2.getRight();
+                }
+                if (p2.getRight() == null) {
+                    p2.setRight(p1);
+                    p1 = p1.getLeft();
+                    continue;
+                } else {
+                    p2.setRight(null);
+                    addPath(res, p1.getLeft());
+                }
             }
-            node = stack.pop();
-            if (root.getRight() == null || root.getRight() == node) {
-                res.add(root.getValue());
-                node = root;
-                root = null;
-            } else {
-                stack.push(root);
-                root = root.getRight();
-            }
+            p1 = p1.getRight();
         }
+        addPath(res, root);
         return res;
+    }
+
+    public static void addPath(List<Integer> res, TreeNode node) {
+        int count = 0;
+        while (node != null) {
+            ++count;
+            res.add(node.getValue());
+            node = node.getRight();
+        }
+        int left = res.size() - count, right = res.size() - 1;
+        while (left < right) {
+            int temp = res.get(left);
+            res.set(left, res.get(right));
+            res.set(right, temp);
+            left++;
+            right--;
+        }
     }
 }

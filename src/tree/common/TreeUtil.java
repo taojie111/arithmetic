@@ -345,4 +345,141 @@ public class TreeUtil {
         return node;
     }
 
+    public static TreeNode getTree17() {
+        TreeNode node = new TreeNode();
+        node.setValue(3);
+        TreeNode node21 = new TreeNode();
+        node21.setValue(0);
+        TreeNode node22 = new TreeNode();
+        node22.setValue(4);
+        node.setLeft(node21);
+        node.setRight(node22);
+        TreeNode node31 = new TreeNode();
+        node31.setValue(2);
+        node21.setRight(node31);
+        TreeNode node41 = new TreeNode();
+        node41.setValue(1);
+        node31.setLeft(node41);
+        return node;
+    }
+
+    public static TreeNode  getTree18() {
+        TreeNode node = new TreeNode();
+        node.setValue(3);
+        TreeNode node21 = new TreeNode();
+        node21.setValue(2);
+        TreeNode node22 = new TreeNode();
+        node22.setValue(4);
+        node.setLeft(node21);
+        node.setRight(node22);
+        TreeNode node31 = new TreeNode();
+        node31.setValue(1);
+        TreeNode node32 = new TreeNode();
+        node32.setValue(6);
+        node21.setLeft(node31);
+        node21.setRight(node32);
+        TreeNode node41 = new TreeNode();
+        node41.setValue(1);
+        node32.setLeft(node41);
+        return node;
+    }
+
+    public static TreeNode  getTree19() {
+        TreeNode node = new TreeNode();
+        node.setValue(6);
+        TreeNode node21 = new TreeNode();
+        node21.setValue(3);
+        TreeNode node22 = new TreeNode();
+        node22.setValue(7);
+        node.setLeft(node21);
+        node.setRight(node22);
+        TreeNode node31 = new TreeNode();
+        node31.setValue(2);
+        TreeNode node32 = new TreeNode();
+        node32.setValue(5);
+        node21.setLeft(node31);
+        node21.setRight(node32);
+        TreeNode node41 = new TreeNode();
+        node41.setValue(4);
+        node32.setLeft(node41);
+        return node;
+    }
+
+    public static TreeNode getTree20() {
+        TreeNode node = new TreeNode();
+        node.setValue(3);
+        TreeNode node21 = new TreeNode();
+        node21.setValue(1);
+        TreeNode node22 = new TreeNode();
+        node22.setValue(4);
+        node.setLeft(node21);
+        node.setRight(node22);
+        TreeNode node31 = new TreeNode();
+        node31.setValue(2);
+        node21.setRight(node31);
+        return node;
+    }
+
+    public static TreeNode  getTree21() {
+        TreeNode node = new TreeNode();
+        node.setValue(5);
+        TreeNode node21 = new TreeNode();
+        node21.setValue(3);
+        TreeNode node22 = new TreeNode();
+        node22.setValue(6);
+        node.setLeft(node21);
+        node.setRight(node22);
+        TreeNode node31 = new TreeNode();
+        node31.setValue(2);
+        TreeNode node32 = new TreeNode();
+        node32.setValue(4);
+        node21.setLeft(node31);
+        node21.setRight(node32);
+        TreeNode node41 = new TreeNode();
+        node41.setValue(1);
+        node31.setLeft(node41);
+        return node;
+    }
+
+    public static TreeNode  getTree22() {
+        TreeNode node = new TreeNode();
+        node.setValue(3);
+        return node;
+    }
+
+    public static TreeNode  getTree23() {
+        TreeNode node = new TreeNode();
+        node.setValue(5);
+        return node;
+    }
+
+    public static TreeNode  getTree24() {
+        TreeNode node = new TreeNode();
+        node.setValue(6);
+        TreeNode node21 = new TreeNode();
+        node21.setValue(2);
+        TreeNode node22 = new TreeNode();
+        node22.setValue(8);
+        node.setLeft(node21);
+        node.setRight(node22);
+        TreeNode node31 = new TreeNode();
+        node31.setValue(0);
+        TreeNode node32 = new TreeNode();
+        node32.setValue(4);
+        TreeNode node33 = new TreeNode();
+        node33.setValue(7);
+        TreeNode node34 = new TreeNode();
+        node34.setValue(9);
+        node21.setLeft(node31);
+        node21.setRight(node32);
+        node22.setLeft(node33);
+        node22.setRight(node34);
+        TreeNode node41 = new TreeNode();
+        node41.setValue(3);
+        TreeNode node42 = new TreeNode();
+        node42.setValue(5);
+        node32.setLeft(node41);
+        node32.setRight(node42);
+        return node;
+    }
 }

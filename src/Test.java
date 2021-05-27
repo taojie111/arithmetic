@@ -1,7 +1,7 @@
 public class Test {
 
     public static void main(String[] args) {
-        System.out.println(Integer.toBinaryString(97));
+        System.out.println(Fibonacci(9));
     }
 
     static void merge_sort_recursive(int[] arr, int[] result, int start, int end) {
@@ -68,5 +68,24 @@ public class Test {
             }
         }
         return next;
+    }
+
+    // 计算n的阶乘
+    public static int factorial(int n) {
+        if (n == 1) {
+            return 1;
+        }
+        return n*factorial(n-1);
+    }
+
+    // 斐波那契数列的是这样一个数列：1、1、2、3、5、8、13、21、34、….，即第一项 f(1) = 1、第二项 f(2) = 1、…..、第 n 项目为 f(n)=f(n-1)+f(n-2)，求第 n 项的值是多少。
+    // 1、明确函数功能：求数列第n项的值
+    // 2、明确递归结束条件
+    // 3、找出函数的等价关系式
+    public static int Fibonacci(int n) {
+        if (n == 1 || n == 2) {
+            return 1;
+        }
+        return Fibonacci(n-1) + Fibonacci(n - 2);
     }
 }
