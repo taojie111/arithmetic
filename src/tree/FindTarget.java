@@ -6,6 +6,9 @@ import tree.common.TreeUtil;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * @author taojie
+ */
 public class FindTarget {
 
     public static void main(String[] args) {
