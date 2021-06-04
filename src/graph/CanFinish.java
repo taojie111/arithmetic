@@ -9,9 +9,16 @@ import java.util.List;
 public class CanFinish {
 
     public static void main(String[] args) {
-        int[][] param = new int[1][2];
-        param[0] = new int[]{1,0};
-        boolean result = canFinish(2, param);
+        int[][] param = new int[8][2];
+        param[0] = new int[]{3,1};
+        param[1] = new int[]{5,1};
+        param[2] = new int[]{6,1};
+        param[3] = new int[]{1,2};
+        param[4] = new int[]{3,2};
+        param[5] = new int[]{6,4};
+        param[6] = new int[]{5,6};
+        param[7] = new int[]{7,6};
+        boolean result = canFinish(8, param);
         System.out.println(result);
     }
 
