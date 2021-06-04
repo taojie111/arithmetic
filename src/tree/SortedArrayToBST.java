@@ -17,6 +17,7 @@ public class SortedArrayToBST {
         return helper(param, 0, param.length - 1);
     }
 
+    // 函数等价关关系式：f(n) = root.f(n-1) + root.f(n+1)
     public static TreeNode helper(int[] nums, int left, int right) {
         if (left > right) {
             return null;
