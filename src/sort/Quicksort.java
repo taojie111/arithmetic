@@ -3,9 +3,9 @@ package sort;
 public class Quicksort {
 
     public static void main(String[] args) {
-        int[] param = new int[]{1,5,4,3,2,8,15,36,17,28,6};
+        int[] param = new int[]{1,5,4,3,2,8,15,36,6,28,17};
         long start = System.currentTimeMillis();
-        quicksort(param, 0, param.length);
+        quicksort(param, 0, param.length - 1);
         System.out.println(System.currentTimeMillis() - start);
     }
 
@@ -26,7 +26,7 @@ public class Quicksort {
                 begin++;
             }
             while (begin < end && array[end] >= array[key]) {
-                end++;
+                end--;
             }
             swap(array, begin , end);
         }
