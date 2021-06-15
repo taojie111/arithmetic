@@ -18,3 +18,5 @@
 18. 修剪二叉搜索树（https://leetcode-cn.com/problems/trim-a-binary-search-tree/）（TrimBST.java）
 19. 二叉搜索树的最近公共祖先（https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-search-tree/）（LowestCommonAncestor.java）
 20. 将有序数组转换为二叉搜索树（https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree/description/）（SortedArrayToBST.java）
+21. 课程表（https://leetcode-cn.com/problems/course-schedule/description/）（CanFinish.java）
+22.  为运算表达式设计优先级（https://leetcode-cn.com/problems/different-ways-to-add-parentheses/）（OperatorPrecedence.java）
