@@ -16,3 +16,4 @@
 16、另一个树的子树（https://leetcode-cn.com/problems/subtree-of-another-tree/）（IsSubtree.java）(kmp算法)
 17、最长同值路径（https://leetcode-cn.com/problems/longest-univalue-path/）（LongestUnivaluePath.java）
 18、买卖股票的最佳时机 II（https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/）（MaxProfit.java）(理解贪心算法和动态规划算法)
+19、种花问题（https://leetcode-cn.com/problems/can-place-flowers/）（CanPlaceFlowers.java）(理解贪心算法)
