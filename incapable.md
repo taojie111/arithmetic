@@ -20,4 +20,6 @@
 20. 将有序数组转换为二叉搜索树（https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree/description/）（SortedArrayToBST.java）
 21. 课程表（https://leetcode-cn.com/problems/course-schedule/description/）（CanFinish.java）
 22. 为运算表达式设计优先级（https://leetcode-cn.com/problems/different-ways-to-add-parentheses/）（OperatorPrecedence.java）
-23. 划分字母区间（https://leetcode-cn.com/problems/partition-labels/）（PartitionLabels.java）(理解贪心算法)
+23. 买卖股票的最佳时机 II（https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/）（MaxProfit.java）(理解贪心算法和动态规划算法)
+24. 种花问题（https://leetcode-cn.com/problems/can-place-flowers/）（CanPlaceFlowers.java）(理解贪心算法)
+25. 划分字母区间（https://leetcode-cn.com/problems/partition-labels/）（PartitionLabels.java）(理解贪心算法)
