@@ -15,3 +15,5 @@ leetcode已做题目
 二、动态规划算法
 11、53. 最大子序和（https://leetcode-cn.com/problems/maximum-subarray/）
 12、70. 爬楼梯（https://leetcode-cn.com/problems/climbing-stairs/）
+13、122. 买卖股票的最佳时机 II（https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/）
+14、剑指 Offer 10- I. 斐波那契数列（https://leetcode-cn.com/problems/fei-bo-na-qi-shu-lie-lcof/）
