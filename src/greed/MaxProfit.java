@@ -24,7 +24,7 @@ public class MaxProfit {
         return ans;
     }
 
-    // ·动态规划
+    // 动态规划
     public static int maxProfit2(int[] prices) {
         int n = prices.length;
         int[][] dp = new int[n][2];

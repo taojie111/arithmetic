@@ -1,7 +1,11 @@
 public class Test {
 
     public static void main(String[] args) {
-        System.out.println(Fibonacci(9));
+        StringBuilder sb = new StringBuilder();
+        sb.append("批量导入成功");
+        sb.append("、");
+        sb.delete(sb.length() - 1, sb.length());
+        System.out.println(sb.toString());
     }
 
     static void merge_sort_recursive(int[] arr, int[] result, int start, int end) {
