@@ -7,7 +7,7 @@
 7. 4的幂（https://leetcode-cn.com/problems/power-of-four/）（IsPowerOfFour.java）
 8. 数字的补数（https://leetcode-cn.com/problems/number-complement/）（FindComplement.java）
 9. 最大单词长度乘积（https://leetcode-cn.com/problems/maximum-product-of-word-lengths/）(MaxProduct.java)
-10. 比特位计数（https://leetcode-cn.com/problems/counting-bits/）（CountBits.java）
+10. 比特位计数（https://leetcode-cn.com/problems/counting-bits/）（CountBits.java）(动态规划算法)
 11. 移动零（https://leetcode-cn.com/problems/move-zeroes/）（MoveZeroes.java）
 12. 重塑矩阵（https://leetcode-cn.com/problems/reshape-the-matrix/）（MatrixReshape.java）
 13. 最大连续 1 的个数（https://leetcode-cn.com/problems/max-consecutive-ones/）（FindMaxConsecutiveOnes.java）（重点看双指针法）
@@ -23,3 +23,4 @@
 23. 买卖股票的最佳时机 II（https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/）（MaxProfit.java）(理解贪心算法和动态规划算法)
 24. 种花问题（https://leetcode-cn.com/problems/can-place-flowers/）（CanPlaceFlowers.java）(理解贪心算法)
 25. 划分字母区间（https://leetcode-cn.com/problems/partition-labels/）（PartitionLabels.java）(理解贪心算法)
+26. 判断子序列（https://leetcode-cn.com/problems/is-subsequence/）（IsSubsequence.java）(动态规划算法)
