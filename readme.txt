@@ -18,5 +18,7 @@ leetcode已做题目
 13、122. 买卖股票的最佳时机 II（https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/）
 14、剑指 Offer 10- I. 斐波那契数列（https://leetcode-cn.com/problems/fei-bo-na-qi-shu-lie-lcof/）
 15、392. 判断子序列（https://leetcode-cn.com/problems/is-subsequence/）
-15、338. 比特位计数（https://leetcode-cn.com/problems/counting-bits/）
-15、面试题 17.16. 按摩师（https://leetcode-cn.com/problems/the-masseuse-lcci/）
+16、338. 比特位计数（https://leetcode-cn.com/problems/counting-bits/）
+17、面试题 17.16. 按摩师（https://leetcode-cn.com/problems/the-masseuse-lcci/）
+18、746. 使用最小花费爬楼梯（https://leetcode-cn.com/problems/min-cost-climbing-stairs/）
+19、1025. 除数博弈（https://leetcode-cn.com/problems/divisor-game/）
