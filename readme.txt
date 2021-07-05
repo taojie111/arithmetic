@@ -22,3 +22,5 @@ leetcode已做题目
 17、面试题 17.16. 按摩师（https://leetcode-cn.com/problems/the-masseuse-lcci/）
 18、746. 使用最小花费爬楼梯（https://leetcode-cn.com/problems/min-cost-climbing-stairs/）
 19、1025. 除数博弈（https://leetcode-cn.com/problems/divisor-game/）
+20、1137. 第 N 个泰波那契数（https://leetcode-cn.com/problems/n-th-tribonacci-number/）
+21、面试题 08.01. 三步问题（https://leetcode-cn.com/problems/three-steps-problem-lcci/）

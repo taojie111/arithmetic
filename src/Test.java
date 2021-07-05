@@ -1,11 +1,9 @@
 public class Test {
 
     public static void main(String[] args) {
-        StringBuilder sb = new StringBuilder();
-        sb.append("批量导入成功");
-        sb.append("、");
-        sb.delete(sb.length() - 1, sb.length());
-        System.out.println(sb.toString());
+        String s = "技术研发部(123456)";
+        int i = s.indexOf('(');
+        System.out.println(s.substring(i+1, s.length()-1));
     }
 
     static void merge_sort_recursive(int[] arr, int[] result, int start, int end) {
