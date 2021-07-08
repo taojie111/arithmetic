@@ -185,3 +185,47 @@ x是偶数时，表示爱丽丝执行操作后的数，x是奇数时，表示鲍
 LCP 07. 传递信息(https://leetcode-cn.com/problems/chuan-di-xin-xi/)
 输入：n = 5, relation = [[0,2],[2,1],[3,4],[2,3],[1,4],[2,0],[0,4]], k = 3
 确定状态：经过k轮传递，信息传到n-1小伙伴处的方案数，f(k)(n-1)
+
+788. 旋转数字(https://leetcode-cn.com/problems/rotated-digits/)
+动态规划：
+1、确定状态：
+f(x)为数字1-x中的好数的数量
+2、定义边界
+f(0) = 0
+f(1) = 0
+f(2) = 1
+f(3) = 1
+3、状态转移方程
+2、5、6、9
+30+1=31 35+1=36 39+1=40
+f(x) = f(x-1) + is(x)
+
+169. 多数元素(https://leetcode-cn.com/problems/majority-element/)
+n = 5,[1,1,1,4,5]
+n/2=2,result=1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

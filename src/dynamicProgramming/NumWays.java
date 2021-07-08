@@ -15,10 +15,6 @@ public class NumWays {
         System.out.println(result);
     }
 
-    public static int doTest(int n, int[][] relation, int k) {
-        return 0;
-    }
-
     public static int numWays(int n, int[][] relation, int k) {
         int[][] dp = new int[k + 1][n];
         dp[0][0] = 1;

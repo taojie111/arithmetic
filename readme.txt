@@ -24,3 +24,6 @@ leetcode已做题目
 19、1025. 除数博弈（https://leetcode-cn.com/problems/divisor-game/）
 20、1137. 第 N 个泰波那契数（https://leetcode-cn.com/problems/n-th-tribonacci-number/）
 21、面试题 08.01. 三步问题（https://leetcode-cn.com/problems/three-steps-problem-lcci/）
+22、LCP 07. 传递信息（https://leetcode-cn.com/problems/chuan-di-xin-xi/）
+23、面试题 16.17. 连续数列（https://leetcode-cn.com/problems/contiguous-sequence-lcci/）
+24、788. 旋转数字（https://leetcode-cn.com/problems/rotated-digits/）
