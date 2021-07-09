@@ -201,7 +201,7 @@ f(3) = 1
 f(x) = f(x-1) + is(x)
 
 169. 多数元素(https://leetcode-cn.com/problems/majority-element/)
-n = 5,[1,1,1,4,5]
+n = 5,[1,4,1,1,5]
 n/2=2,result=1
 
 190. 颠倒二进制位（https://leetcode-cn.com/problems/reverse-bits/）
