@@ -1,9 +1,8 @@
 public class Test {
 
     public static void main(String[] args) {
-        String s = "技术研发部(123456)";
-        int i = s.indexOf('(');
-        System.out.println(s.substring(i+1, s.length()-1));
+        String s = "01101";
+        System.out.println(s.substring(3, 5));
     }
 
     static void merge_sort_recursive(int[] arr, int[] result, int start, int end) {

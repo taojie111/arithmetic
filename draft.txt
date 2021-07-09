@@ -204,7 +204,10 @@ f(x) = f(x-1) + is(x)
 n = 5,[1,1,1,4,5]
 n/2=2,result=1
 
-
+190. 颠倒二进制位（https://leetcode-cn.com/problems/reverse-bits/）
+00000010100101000001111010011100
+分治法：
+子问题最优解：
 
 
 
