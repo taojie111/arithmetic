@@ -28,3 +28,6 @@ leetcode已做题目
 23、面试题 16.17. 连续数列（https://leetcode-cn.com/problems/contiguous-sequence-lcci/）
 24、788. 旋转数字（https://leetcode-cn.com/problems/rotated-digits/）
 25、190. 颠倒二进制位（https://leetcode-cn.com/problems/reverse-bits/）
+
+三、LeetCode热题HOT100
+26、20. 有效的括号（https://leetcode-cn.com/problems/valid-parentheses/）
