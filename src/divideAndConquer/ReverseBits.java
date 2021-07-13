@@ -3,50 +3,41 @@ package divideAndConquer;
 public class ReverseBits {
 
     public static void main(String[] args) {
-        int result = doTest(10101);
+        String result = doTest("11111111111111111111111111111101");
         System.out.println(result);
     }
 
-    public static int doTest(int n) {
+    public static String doTest(String n) {
         return divideAndConquer(n, 0, getHighIndex(n));
     }
 
-    public static int divideAndConquer(int n, int l, int h) {
-        if (isOne(n)) {
-            return n;
+    public static String divideAndConquer(String n, int l, int h) {
+        if (isOne(n,l,h)) {
+            return n.substring(l, h+1);
         }
         int mid = (h - l) / 2 + l;
-        int leftBits = getBits(n, 0, mid);
-        int rightBits = getBits(n, mid + 1, h);
-        int left = divideAndConquer(leftBits, 0, mid);
-        int right = divideAndConquer(rightBits, mid + 1, h);
+        String left = divideAndConquer(n, l, mid);
+        String right = divideAndConquer(n, mid + 1, h);
         return conquer(left, right);
     }
 
-    private static int getBits(int n, int start, int end) {
-        String s = String.valueOf(n);
-        s.substring(start, end);
-        return Integer.valueOf(s.substring(start, end + 1));
+    private static String getBits(String n, int start, int end) {
+        return n.substring(start, end + 1);
     }
 
-    private static int getHighIndex(int n) {
-        String s = String.valueOf(n);
-        return s.length() - 1;
+    private static int getHighIndex(String n) {
+        return n.length() - 1;
     }
 
-    private static boolean isOne(int n) {
-        String s = String.valueOf(n);
-        if (s.length() == 1) {
+    private static boolean isOne(String n, int l, int h) {
+        if (n.substring(l, h+1).length() == 1) {
             return true;
         }
         return false;
     }
 
-    private static int conquer(int left, int right) {
-        String sLeft = String.valueOf(left);
-        String sRight = String.valueOf(right);
-        String result = sRight + sLeft;
-        return Integer.valueOf(result);
+    private static String conquer(String left, String right) {
+        return right + left;
     }
 
 }
