@@ -209,6 +209,7 @@ n/2=2,result=1
 分治法：
 子问题最优解：
 
+有效的括号（https://leetcode-cn.com/problems/valid-parentheses/）
 [{(){()}}[]]
 
 
