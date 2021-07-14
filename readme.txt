@@ -31,3 +31,4 @@ leetcode已做题目
 
 三、LeetCode热题HOT100
 26、20. 有效的括号（https://leetcode-cn.com/problems/valid-parentheses/）
+26、21. 合并两个有序链表（https://leetcode-cn.com/problems/merge-two-sorted-lists/）
