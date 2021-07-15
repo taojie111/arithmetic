@@ -503,4 +503,16 @@ public class TreeUtil {
         node22.setRight(node33);
         return node;
     }
+
+    public static TreeNode getTree26() {
+        TreeNode node = new TreeNode();
+        node.setValue(1);
+        TreeNode node21 = new TreeNode();
+        node21.setValue(2);
+        node.setRight(node21);
+        TreeNode node31 = new TreeNode();
+        node31.setValue(3);
+        node21.setLeft(node31);
+        return node;
+    }
 }
