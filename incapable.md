@@ -26,3 +26,5 @@
 26. 判断子序列（https://leetcode-cn.com/problems/is-subsequence/）（IsSubsequence.java）(动态规划算法)
 27. 除数博弈（https://leetcode-cn.com/problems/divisor-game/）（DivisorGame.java）(动态规划算法)
 27. 合并两个有序链表（https://leetcode-cn.com/problems/merge-two-sorted-lists/）（MergeTwoLists.java）(重点看递归)
+28. 对称二叉树（https://leetcode-cn.com/problems/symmetric-tree/）（IsSymmetric.java）
+29. 二叉树的最大深度（https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/）（MaxDepth.java）

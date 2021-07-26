@@ -30,6 +30,11 @@ leetcode已做题目
 25、190. 颠倒二进制位（https://leetcode-cn.com/problems/reverse-bits/）
 
 三、LeetCode热题HOT100
-26、20. 有效的括号（https://leetcode-cn.com/problems/valid-parentheses/）
-27、21. 合并两个有序链表（https://leetcode-cn.com/problems/merge-two-sorted-lists/）
-28、53. 最大子序和（https://leetcode-cn.com/problems/maximum-subarray/）
+26、有效的括号（https://leetcode-cn.com/problems/valid-parentheses/）
+27、合并两个有序链表（https://leetcode-cn.com/problems/merge-two-sorted-lists/）
+28、最大子序和（https://leetcode-cn.com/problems/maximum-subarray/）
+29、爬楼梯（https://leetcode-cn.com/problems/climbing-stairs/）
+30、二叉树的中序遍历（https://leetcode-cn.com/problems/binary-tree-inorder-traversal/）
+31、对称二叉树（https://leetcode-cn.com/problems/symmetric-tree/）
+32. 二叉树的最大深度（https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/）
+33. 买卖股票的最佳时机（https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/）
