@@ -38,3 +38,6 @@ leetcode已做题目
 31、对称二叉树（https://leetcode-cn.com/problems/symmetric-tree/）
 32. 二叉树的最大深度（https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/）
 33. 买卖股票的最佳时机（https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/）
+34. 只出现一次的数字（https://leetcode-cn.com/problems/single-number/）
+35. 环形链表（https://leetcode-cn.com/problems/linked-list-cycle/）
+36. 最小栈（https://leetcode-cn.com/problems/min-stack/）

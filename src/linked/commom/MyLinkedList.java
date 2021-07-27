@@ -49,4 +49,25 @@ public class MyLinkedList {
         }
         return "[" + result.substring(0, result.length() - 2) + "]";
     }
+
+    public ListNode stringToCycleNode(String input) {
+        int[] nodeValues = stringToIntegerArray(input);
+        ListNode dummyRoot = new ListNode(0);
+        ListNode ptr = dummyRoot;
+        ListNode node = null;
+        for (int i = 0; i < nodeValues.length; i++) {
+            if (i == nodeValues.length - 1) {
+                ptr.next = node;
+            } else {
+                if (i == 1) {
+                    node = new ListNode(nodeValues[i]);
+                    ptr.next = node;
+                } else {
+                    ptr.next = new ListNode(nodeValues[i]);
+                }
+            }
+            ptr = ptr.next;
+        }
+        return dummyRoot.next;
+    }
 }
