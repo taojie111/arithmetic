@@ -70,4 +70,36 @@ public class MyLinkedList {
         }
         return dummyRoot.next;
     }
+
+    public ListNode intersectNode = null;
+    public ListNode stringToIntersectNode(String input) {
+        int[] nodeValues = stringToIntegerArray(input);
+        ListNode dummyRoot = new ListNode(0);
+        ListNode ptr = dummyRoot;
+        for(int item : nodeValues) {
+            ListNode node = new ListNode(item);
+            if (item == 8) {
+                intersectNode = node;
+            }
+            ptr.next = node;
+            ptr = ptr.next;
+        }
+        return dummyRoot.next;
+    }
+
+    public ListNode stringToIntersectNode2(String input) {
+        int[] nodeValues = stringToIntegerArray(input);
+        ListNode dummyRoot = new ListNode(0);
+        ListNode ptr = dummyRoot;
+        for(int item : nodeValues) {
+            ListNode node = new ListNode(item);
+            if (item == 8) {
+                ptr.next = intersectNode;
+                break;
+            }
+            ptr.next = node;
+            ptr = ptr.next;
+        }
+        return dummyRoot.next;
+    }
 }
