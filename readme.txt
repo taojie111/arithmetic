@@ -42,3 +42,4 @@ leetcode已做题目
 35. 环形链表（https://leetcode-cn.com/problems/linked-list-cycle/）
 36. 最小栈（https://leetcode-cn.com/problems/min-stack/）
 37. 相交链表（https://leetcode-cn.com/problems/intersection-of-two-linked-lists/）
+38. 多数元素（https://leetcode-cn.com/problems/majority-element/）
