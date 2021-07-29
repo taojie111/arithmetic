@@ -15,17 +15,20 @@ public class TreeUtil {
         node.setLeft(node21);
         node.setRight(node22);
         TreeNode node31 = new TreeNode();
-        node31.setValue(3);
+        node31.setValue(1);
         TreeNode node32 = new TreeNode();
-        node32.setValue(4);
+        node32.setValue(3);
         node21.setLeft(node31);
         node21.setRight(node32);
+        TreeNode node33 = new TreeNode();
+        node33.setValue(6);
+        TreeNode node34 = new TreeNode();
+        node34.setValue(9);
+        node22.setLeft(node33);
+        node22.setRight(node34);
         TreeNode node41 = new TreeNode();
         node41.setValue(5);
-        TreeNode node42 = new TreeNode();
-        node42.setValue(6);
-        node32.setLeft(node41);
-        node32.setRight(node42);
+        node31.setRight(node41);
         return node;
     }
 

@@ -44,3 +44,6 @@ leetcode已做题目
 37. 相交链表（https://leetcode-cn.com/problems/intersection-of-two-linked-lists/）
 38. 多数元素（https://leetcode-cn.com/problems/majority-element/）
 39. 反转链表（https://leetcode-cn.com/problems/reverse-linked-list/）
+40. 翻转二叉树（https://leetcode-cn.com/problems/invert-binary-tree/）
+41. 回文链表（https://leetcode-cn.com/problems/palindrome-linked-list/）
+42. 移动零（https://leetcode-cn.com/problems/move-zeroes/）
