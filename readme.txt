@@ -47,3 +47,5 @@ leetcode已做题目
 40. 翻转二叉树（https://leetcode-cn.com/problems/invert-binary-tree/）
 41. 回文链表（https://leetcode-cn.com/problems/palindrome-linked-list/）
 42. 移动零（https://leetcode-cn.com/problems/move-zeroes/）
+43. 比特位计数（https://leetcode-cn.com/problems/counting-bits/）
+44. 找到所有数组中消失的数字（https://leetcode-cn.com/problems/find-all-numbers-disappeared-in-an-array/）

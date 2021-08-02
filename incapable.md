@@ -31,3 +31,4 @@
 30. 环形链表（https://leetcode-cn.com/problems/linked-list-cycle/）（HasCycle.java）
 31. 相交链表（https://leetcode-cn.com/problems/intersection-of-two-linked-lists/）（IntersectionNode.java）
 32. 多数元素（https://leetcode-cn.com/problems/majority-element/）（MajorityElement.java）(重点看分治算法)
+32. 找到所有数组中消失的数字（https://leetcode-cn.com/problems/find-all-numbers-disappeared-in-an-array/）（FindDisappearedNumbers.java）(重点理解官方解法)
