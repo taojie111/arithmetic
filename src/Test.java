@@ -4,9 +4,10 @@ import java.util.List;
 public class Test {
 
     public static void main(String[] args) {
-        int[] param = new int[]{1, 2, 3};
-        List<List<Integer>> result = permute(param);
-        System.out.println(result);
+        LinkedList<String> element = new LinkedList<>();
+        element.add("(");
+        element.add(")");
+        System.out.println(element.element());
     }
 
     static void merge_sort_recursive(int[] arr, int[] result, int start, int end) {

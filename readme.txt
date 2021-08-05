@@ -53,3 +53,5 @@ leetcode已做题目
 46. 二叉树的直径（https://leetcode-cn.com/problems/diameter-of-binary-tree/）
 47. 合并二叉树（https://leetcode-cn.com/problems/merge-two-binary-trees/）
 48. 子集（https://leetcode-cn.com/problems/subsets/）
+49. 全排列（https://leetcode-cn.com/problems/permutations/）
+50. 括号生成（https://leetcode-cn.com/problems/generate-parentheses/）
