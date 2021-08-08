@@ -1,98 +1,184 @@
-import java.util.LinkedList;
-import java.util.List;
+import linked.commom.ListNode;
+import tree.common.TreeNode;
+
+import java.util.*;
 
 public class Test {
 
+    static Map<Character, Integer> ori = new HashMap<Character, Integer>();
+    static Map<Character, Integer> cnt = new HashMap<Character, Integer>();
+
     public static void main(String[] args) {
+        List<User> list1 = new ArrayList<>();
+        List<User> list2 = new ArrayList<>();
+        User user1 = new User("a","1");
+        User user2 = new User("b","1");
+        User user3 = new User("b","1");
+        User user4 = new User("c","1");
+        list1.add(user1);
+        list1.add(user2);
+        list2.add(user3);
+        list2.add(user4);
+        list1.retainAll(list2);
+        System.out.println(list1);
         LinkedList<String> element = new LinkedList<>();
         element.add("(");
         element.add(")");
         System.out.println(element.element());
     }
 
-    static void merge_sort_recursive(int[] arr, int[] result, int start, int end) {
-        if (start >= end) {
-            return;
+    static class User {
+        public String name;
+        public String sex;
+
+        public User(String name, String sex) {
+            this.name = name;
+            this.sex = sex;
         }
-        int len = end - start, mid = (len >> 1) + start;
-        int start1 = start, end1 = mid;
-        int start2 = mid + 1, end2 = end;
-        merge_sort_recursive(arr, result, start1, end1);
-        merge_sort_recursive(arr, result, start2, end2);
-        int k = start;
-        while (start1 <= end1 && start2 <= end2) {
-            result[k++] = arr[start1] < arr[start2] ? arr[start1++] : arr[start2++];
+
+        public String getName() {
+            return name;
         }
-        while (start1 <= end1) {
-            result[k++] = arr[start1++];
+
+        public void setName(String name) {
+            this.name = name;
         }
-        while (start2 <= end2) {
-            result[k++] = arr[start2++];
+
+        public String getSex() {
+            return sex;
         }
-        for (k = start; k <= end; k++) {
-            arr[k] = result[k];
+
+        public void setSex(String sex) {
+            this.sex = sex;
+        }
+
+        @Override
+        public boolean equals(Object obj) {
+            User u = (User) obj;
+            return this.getName().equals(u.getName());
+        }
+    }
+    // 全局变量，记录递归函数的递归层数
+    public static int count = 1;
+
+    // 在递归函数的开头，调用 printIndent(count++) 并打印关键变量；然后在所有 return 语句之前调用 printIndent(--count) 并打印返回值。
+    // 递归函数的开头：printIndent(count++); System.out.println("i = %d, j = %d\n", i, j);
+    // 递归函数的结尾：printIndent(--count); System.out.println("return %d\n", res);
+    public static void printRecursion(String data, boolean flag) {
+        if (!flag) {
+            count--;
+        }
+        String s = "层出参：";
+        if (flag) {
+            s = "层入参：";
+        }
+        System.out.println(getBlank(count) + "第" + count + s + data);
+        if (flag) {
+            count++;
         }
     }
 
-    public static int bf(String ts, String ps) {
-        char[] t = ts.toCharArray();
-        char[] p = ps.toCharArray();
-        // 主串的位置
-        int i = 0;
-        // 模式串的位置
-        int j = 0;
-        while (i < t.length && j < p.length) {
-            // 当两个字符相同，就比较下一个
-            if (t[i] == p[j]) {
-                i++;
-                j++;
-            } else {
-                // 一旦不匹配，i后退
-                i = i - j + 1;
-                // j归0
-                j = 0;
-            }
-        }
-        if (j == p.length) {
-            return i - j;
-        } else {
-            return -1;
-        }
-    }
-
-    public static int[] getNext(String ps) {
-        char[] p = ps.toCharArray();
-        int[] next = new int[p.length];
-        next[0] = -1;
-        int j = 0;
-        int k = -1;
-        while (j < p.length - 1) {
-            if (k == -1 || p[j] == p[k]) {
-                next[++j] = ++k;
-            } else {
-                k = next[k];
-            }
-        }
-        return next;
-    }
-
-    // 计算n的阶乘
-    public static int factorial(int n) {
+    public static String getBlank(int n) {
+        String s = "";
         if (n == 1) {
-            return 1;
+        } else if (n == 2) {
+            s = "   ";
+        } else if (n == 3) {
+            s = "       ";
+        } else if (n == 4) {
+            s = "           ";
+        } else if (n == 5) {
+            s = "               ";
+        } else if (n == 6) {
+            s = "                   ";
+        } else if (n == 7) {
+            s = "                       ";
+        } else if (n == 8) {
+            s = "                           ";
+        } else if (n == 9) {
+            s = "                               ";
+        } else if (n == 10) {
+            s = "                                   ";
         }
-        return n*factorial(n-1);
+        return s;
     }
 
-    // 斐波那契数列的是这样一个数列：1、1、2、3、5、8、13、21、34、….，即第一项 f(1) = 1、第二项 f(2) = 1、…..、第 n 项目为 f(n)=f(n-1)+f(n-2)，求第 n 项的值是多少。
-    // 1、明确函数功能：求数列第n项的值
-    // 2、明确递归结束条件
-    // 3、找出函数的等价关系式
-    public static int Fibonacci(int n) {
-        if (n == 1 || n == 2) {
-            return 1;
+    public static ListNode reverse(ListNode head) {
+        if (head.next == null) {
+            return head;
         }
-        return Fibonacci(n-1) + Fibonacci(n - 2);
+        ListNode last = reverse(head.next);
+        head.next.next = head;
+        head.next = null;
+        return last;
+    }
+
+    public static String minWindow(String s, String t) {
+        int tLen = t.length();
+        for (int i = 0; i < tLen; i++) {
+            char c = t.charAt(i);
+            ori.put(c, ori.getOrDefault(c, 0) + 1);
+        }
+        int l = 0, r = -1;
+        int len = Integer.MAX_VALUE, ansL = -1, ansR = -1;
+        int sLen = s.length();
+        while (r < sLen) {
+            ++r;
+            if (r < sLen && ori.containsKey(s.charAt(r))) {
+                cnt.put(s.charAt(r), cnt.getOrDefault(s.charAt(r), 0) + 1);
+            }
+            while (check() && l <= r) {
+                if (r - l + 1 < len) {
+                    len = r - l + 1;
+                    ansL = l;
+                    ansR = l + len;
+                }
+                if (ori.containsKey(s.charAt(l))) {
+                    cnt.put(s.charAt(l), cnt.getOrDefault(s.charAt(l), 0) - 1);
+                }
+                ++l;
+            }
+        }
+        return ansL == -1 ? "" : s.substring(ansL, ansR);
+    }
+
+    public static boolean check() {
+        Iterator iter = ori.entrySet().iterator();
+        while (iter.hasNext()) {
+            Map.Entry entry = (Map.Entry) iter.next();
+            Character key = (Character) entry.getKey();
+            Integer val = (Integer) entry.getValue();
+            if (cnt.getOrDefault(key, 0) < val) {
+                return false;
+            }
+        }
+        return true;
+    }
+
+    public static int minDepth(TreeNode root) {
+        Queue<TreeNode> nodeQueue = new LinkedList<>();
+        Queue<Integer> valueQueue = new LinkedList<>();
+        nodeQueue.offer(root);
+        valueQueue.offer(root.getValue());
+        int result = 0;
+        while (!nodeQueue.isEmpty()) {
+            TreeNode node = nodeQueue.poll();
+            Integer value = valueQueue.poll();
+            result++;
+            if (node.getLeft() == null && node.getRight() == null) {
+                return result;
+            }
+            if (node.getLeft() != null) {
+                nodeQueue.offer(node.getLeft());
+                valueQueue.offer(node.getLeft().getValue());
+            }
+
+            if (node.getRight() != null) {
+                nodeQueue.offer(node.getRight());
+                valueQueue.offer(node.getRight().getValue());
+            }
+        }
+        return result;
     }
 
     static List<List<Integer>> res = new LinkedList<>();
@@ -105,7 +191,6 @@ public class Test {
         return res;
     }
 
-    static int count = 0;
     static void backtrack(int[] nums, LinkedList<Integer> track) {
 
         // 触发结束条件
