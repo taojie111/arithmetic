@@ -56,3 +56,4 @@ leetcode已做题目
 49. 全排列（https://leetcode-cn.com/problems/permutations/）
 50. 括号生成（https://leetcode-cn.com/problems/generate-parentheses/）
 51. 旋转图像（https://leetcode-cn.com/problems/rotate-image/）
+52. 根据身高重建队列（https://leetcode-cn.com/problems/queue-reconstruction-by-height/）
