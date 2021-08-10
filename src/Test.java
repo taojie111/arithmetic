@@ -9,22 +9,13 @@ public class Test {
     static Map<Character, Integer> cnt = new HashMap<Character, Integer>();
 
     public static void main(String[] args) {
-        List<User> list1 = new ArrayList<>();
-        List<User> list2 = new ArrayList<>();
-        User user1 = new User("a","1");
-        User user2 = new User("b","1");
-        User user3 = new User("b","1");
-        User user4 = new User("c","1");
-        list1.add(user1);
-        list1.add(user2);
-        list2.add(user3);
-        list2.add(user4);
-        list1.retainAll(list2);
-        System.out.println(list1);
-        LinkedList<String> element = new LinkedList<>();
-        element.add("(");
-        element.add(")");
-        System.out.println(element.element());
+        List<Integer> list = new ArrayList<>();
+        list.add(1);
+        list.add(2);
+        list.add(3);
+        list.remove(0);
+        list.remove(0);
+        System.out.println(list);
     }
 
     static class User {
