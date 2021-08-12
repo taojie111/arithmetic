@@ -60,3 +60,4 @@ leetcode已做题目
 53. 组合总和（https://leetcode-cn.com/problems/combination-sum/）
 54. 二叉树展开为链表（https://leetcode-cn.com/problems/flatten-binary-tree-to-linked-list/）
 55. 除自身以外数组的乘积（https://leetcode-cn.com/problems/product-of-array-except-self/）
+56. 从前序与中序遍历序列构造二叉树（https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/）
