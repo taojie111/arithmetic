@@ -62,3 +62,4 @@ leetcode已做题目
 55. 除自身以外数组的乘积（https://leetcode-cn.com/problems/product-of-array-except-self/）
 56. 从前序与中序遍历序列构造二叉树（https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/）
 57. 不同的二叉搜索树（https://leetcode-cn.com/problems/unique-binary-search-trees/）
+58. 把二叉搜索树转换为累加树（https://leetcode-cn.com/problems/convert-bst-to-greater-tree/）
