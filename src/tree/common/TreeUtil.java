@@ -446,13 +446,13 @@ public class TreeUtil {
 
     public static TreeNode  getTree22() {
         TreeNode node = new TreeNode();
-        node.setValue(3);
+        node.setValue(9);
         return node;
     }
 
     public static TreeNode  getTree23() {
         TreeNode node = new TreeNode();
-        node.setValue(5);
+        node.setValue(11);
         return node;
     }
 
@@ -684,6 +684,62 @@ public class TreeUtil {
         node42.setValue(8);
         node32.setRight(node41);
         node34.setRight(node42);
+        return node;
+    }
+
+    public static TreeNode  getTree34() {
+        TreeNode node = new TreeNode();
+        node.setValue(1);
+        TreeNode node21 = new TreeNode();
+        node21.setValue(2);
+        TreeNode node22 = new TreeNode();
+        node22.setValue(3);
+        node.setLeft(node21);
+        node.setRight(node22);
+        TreeNode node31 = new TreeNode();
+        node31.setValue(4);
+        TreeNode node32 = new TreeNode();
+        node32.setValue(5);
+        TreeNode node33 = new TreeNode();
+        node33.setValue(6);
+        TreeNode node34 = new TreeNode();
+        node34.setValue(7);
+        node21.setLeft(node31);
+        node21.setRight(node32);
+        node22.setLeft(node33);
+        node22.setRight(node34);
+
+        TreeNode node41 = new TreeNode();
+        node41.setValue(8);
+        TreeNode node42 = new TreeNode();
+        node42.setValue(9);
+
+        TreeNode node43 = new TreeNode();
+        node43.setValue(10);
+        TreeNode node44 = new TreeNode();
+        node44.setValue(11);
+
+        TreeNode node45 = new TreeNode();
+        node45.setValue(12);
+        TreeNode node46 = new TreeNode();
+        node46.setValue(13);
+
+        TreeNode node47 = new TreeNode();
+        node47.setValue(14);
+        TreeNode node48 = new TreeNode();
+        node48.setValue(15);
+
+        node31.setLeft(node41);
+        node31.setRight(node42);
+
+        node32.setLeft(node43);
+        node32.setRight(node44);
+
+        node33.setLeft(node45);
+        node34.setRight(node46);
+
+        node34.setLeft(node47);
+        node34.setRight(node48);
         return node;
     }
 }
