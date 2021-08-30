@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class MergeSort {
 
     public static void main(String[] args) {
-        int[] param = new int[]{1,5,4,3,2,8,15,36,17,28,6};
+        int[] param = new int[]{1,5,3,4,2};
         long start = System.currentTimeMillis();
         int[] result = doTest(param);
         System.out.println(System.currentTimeMillis() - start);
