@@ -5,17 +5,8 @@ import java.util.*;
 
 public class Test {
 
-    static Map<Character, Integer> ori = new HashMap<Character, Integer>();
-    static Map<Character, Integer> cnt = new HashMap<Character, Integer>();
-
     public static void main(String[] args) {
-        List<Integer> list = new ArrayList<>();
-        list.add(1);
-        list.add(2);
-        list.add(3);
-        list.remove(0);
-        list.remove(0);
-        System.out.println(list);
+       minWindow("ADOBECODEBANC", "ABC");
     }
 
     static class User {
@@ -103,6 +94,9 @@ public class Test {
         head.next = null;
         return last;
     }
+
+    static Map<Character, Integer> ori = new HashMap<Character, Integer>();
+    static Map<Character, Integer> cnt = new HashMap<Character, Integer>();
 
     public static String minWindow(String s, String t) {
         int tLen = t.length();
