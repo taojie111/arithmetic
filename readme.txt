@@ -67,3 +67,5 @@ leetcode已做题目
 60. 二叉树的最近公共祖先（https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/）
 61. 每日温度（https://leetcode-cn.com/problems/daily-temperatures/）
 62. 排序链表（https://leetcode-cn.com/problems/sort-list/）
+63. 字母异位词分组（https://leetcode-cn.com/problems/group-anagrams/）*
+64. 寻找重复数（https://leetcode-cn.com/problems/find-the-duplicate-number/）

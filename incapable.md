@@ -42,3 +42,4 @@
 40. 二叉树的最近公共祖先（https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/）（LowestCommonAncestor.java）
 41. 每日温度（https://leetcode-cn.com/problems/daily-temperatures/）（DailyTemperatures.java）
 42. 排序链表（https://leetcode-cn.com/problems/sort-list/）（SortList.java）（重点理解自底向上归并排序）
+43. 寻找重复数（https://leetcode-cn.com/problems/find-the-duplicate-number/）（FindDuplicate.java）（重点理解二进制解法）
