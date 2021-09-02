@@ -742,4 +742,22 @@ public class TreeUtil {
         node34.setRight(node48);
         return node;
     }
+
+    public static TreeNode getTree35() {
+        TreeNode node = new TreeNode();
+        node.setValue(3);
+        TreeNode node21 = new TreeNode();
+        node21.setValue(9);
+        TreeNode node22 = new TreeNode();
+        node22.setValue(20);
+        node.setLeft(node21);
+        node.setRight(node22);
+        TreeNode node31 = new TreeNode();
+        node31.setValue(15);
+        TreeNode node32 = new TreeNode();
+        node32.setValue(7);
+        node22.setLeft(node31);
+        node22.setRight(node32);
+        return node;
+    }
 }

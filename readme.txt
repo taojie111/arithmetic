@@ -71,3 +71,5 @@ leetcode已做题目
 64. 寻找重复数（https://leetcode-cn.com/problems/find-the-duplicate-number/）
 65. 不同路径（https://leetcode-cn.com/problems/unique-paths/）*
 65. 回文子串（https://leetcode-cn.com/problems/palindromic-substrings/）
+66. 数组中的第K个最大元素（https://leetcode-cn.com/problems/kth-largest-element-in-an-array/）
+67. 二叉树的层序遍历（https://leetcode-cn.com/problems/binary-tree-level-order-traversal/）*

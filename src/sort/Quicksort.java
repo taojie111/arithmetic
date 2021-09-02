@@ -9,7 +9,7 @@ public class Quicksort {
         System.out.println(System.currentTimeMillis() - start);
     }
 
-    public static void quicksort(int array[], int left, int right) {
+    public static void quicksort(int[] array, int left, int right) {
         if(left < right){
             int pos = partition(array, left, right);
             quicksort(array, left, pos - 1);
