@@ -74,3 +74,4 @@ leetcode已做题目
 66. 数组中的第K个最大元素（https://leetcode-cn.com/problems/kth-largest-element-in-an-array/）
 67. 二叉树的层序遍历（https://leetcode-cn.com/problems/binary-tree-level-order-traversal/）*
 67. 盛最多水的容器（https://leetcode-cn.com/problems/container-with-most-water/）*
+68. 完全平方数（https://leetcode-cn.com/problems/perfect-squares/）
