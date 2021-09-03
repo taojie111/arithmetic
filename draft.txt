@@ -333,3 +333,25 @@ int pre = (index - 1) / 2
 abcac
 aba  a^b^a=b     a&b&a=a&b
 abba a^b^b^a=0   a&b&b&a=a&b
+
+盛最多水的容器（https://leetcode-cn.com/problems/container-with-most-water/）
+x 1~9
+y 1~8
+(i,ai),(i,0)
+2,8 9,7
+x2-x1 尽可能大
+y 尽可能大
+
+状态：x,y
+选择：x:1~9,y:1~8
+最优子结构：
+x=2-x1
+y=min(y1,y2)
+f(x,y) = x*y
+f(x2,x1) = (x2-x1) * min(arr(x1), arr(x2))
+for (int x1 = 1, x1 <= length, x1++) {
+    for (int x2 = x1 + 1, x2 <= length, x2++) {
+        dp[x1][x2] = (x2-x1) * min(arr(x1), arr(x2))
+    }
+}
+

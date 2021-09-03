@@ -45,3 +45,4 @@
 43. 寻找重复数（https://leetcode-cn.com/problems/find-the-duplicate-number/）（FindDuplicate.java）（重点理解二进制解法）
 44. 不同路径（https://leetcode-cn.com/problems/unique-paths/）（UniquePaths.java）（重点理解动态规划）
 45. 回文子串（https://leetcode-cn.com/problems/palindromic-substrings/）（CountSubstrings.java）
+46. 盛最多水的容器（https://leetcode-cn.com/problems/container-with-most-water/）（MaxArea.java）(双指针法)
