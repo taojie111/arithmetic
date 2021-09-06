@@ -402,8 +402,8 @@ n=25,f(n) = 1 5;
 3-1
 
 打家劫舍III（https://leetcode-cn.com/problems/house-robber-iii/）
-状态：房屋索引
-选择：是否打劫房屋
+状态：房屋索引、房屋是否被打劫
+选择：房屋、是否打劫房屋
 状态转移方程：f(x) = f()
 
 
