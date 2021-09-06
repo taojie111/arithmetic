@@ -9,6 +9,7 @@ import tree.common.TreeUtil;
 public class MergeTrees {
 
     private static TreeNode node = new TreeNode();
+
     public static void main(String[] args) {
         TreeNode result = doTest(TreeUtil.getTree4(), TreeUtil.getTree5());
         System.out.println(result);

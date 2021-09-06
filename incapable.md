@@ -47,3 +47,4 @@
 45. 回文子串（https://leetcode-cn.com/problems/palindromic-substrings/）（CountSubstrings.java）
 46. 盛最多水的容器（https://leetcode-cn.com/problems/container-with-most-water/）（MaxArea.java）(双指针法)
 47. 完全平方数（https://leetcode-cn.com/problems/perfect-squares/）（NumSquares.java）(动态规划)
+48. 打家劫舍III（https://leetcode-cn.com/problems/house-robber-iii/）（Rob.java）(树的动态规划)
