@@ -79,3 +79,5 @@ leetcode已做题目
 70. 打家劫舍III（https://leetcode-cn.com/problems/house-robber-iii/）
 71. 最佳买卖股票时机含冷冻期（https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/）*
 72. 颜色分类（https://leetcode-cn.com/problems/sort-colors/）*
+73. 电话号码的字母组合（https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/）*
+74. 任务调度器（https://leetcode-cn.com/problems/task-scheduler/）*
