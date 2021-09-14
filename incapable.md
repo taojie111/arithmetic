@@ -12,7 +12,7 @@
 12. 重塑矩阵（https://leetcode-cn.com/problems/reshape-the-matrix/）（MatrixReshape.java）
 13. 最大连续 1 的个数（https://leetcode-cn.com/problems/max-consecutive-ones/）（FindMaxConsecutiveOnes.java）（重点看双指针法）
 14. 路径总和（https://leetcode-cn.com/problems/path-sum/）（HasPathSum.java）（广度优先搜索，迭代也可以遍历树的所有节点）
-15. 路径总和 III（https://leetcode-cn.com/problems/path-sum-iii/）（PathSum.java）
+15. 路径总和 III（https://leetcode-cn.com/problems/path-sum-iii/）（PathSum.java）（前缀和、回溯、递归）
 16. 另一个树的子树（https://leetcode-cn.com/problems/subtree-of-another-tree/）（IsSubtree.java）(kmp算法)
 17. 最长同值路径（https://leetcode-cn.com/problems/longest-univalue-path/）（LongestUnivaluePath.java）
 18. 修剪二叉搜索树（https://leetcode-cn.com/problems/trim-a-binary-search-tree/）（TrimBST.java）
