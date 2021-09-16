@@ -50,4 +50,4 @@
 48. 打家劫舍III（https://leetcode-cn.com/problems/house-robber-iii/）（Rob.java）(树的动态规划)
 49. 任务调度器（https://leetcode-cn.com/problems/task-scheduler/）（LeastInterval.java）(贪心算法)
 50. 环形链表 II（https://leetcode-cn.com/problems/linked-list-cycle-ii/）（DetectCycle.java）(快慢指针)
-51. 字符串解码（https://leetcode-cn.com/problems/decode-string/）（DecodeString.java）(栈操作、递归（重点理解）)
+51. 字符串解码（https://leetcode-cn.com/problems/decode-string/）（DecodeString.java）(重点理解递归)
