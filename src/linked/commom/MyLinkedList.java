@@ -1,10 +1,5 @@
 package linked.commom;
 
-import linked.commom.ListNode;
-
-import java.util.ArrayList;
-import java.util.List;
-
 public class MyLinkedList {
 
     public int[] stringToIntegerArray(String input) {
@@ -16,7 +11,7 @@ public class MyLinkedList {
 
         String[] parts = input.split(",");
         int[] output = new int[parts.length];
-        for(int index = 0; index < parts.length; index++) {
+        for (int index = 0; index < parts.length; index++) {
             String part = parts[index].trim();
             output[index] = Integer.parseInt(part);
         }
@@ -30,7 +25,7 @@ public class MyLinkedList {
         // Now convert that list into linked list
         ListNode dummyRoot = new ListNode(0);
         ListNode ptr = dummyRoot;
-        for(int item : nodeValues) {
+        for (int item : nodeValues) {
             ptr.next = new ListNode(item);
             ptr = ptr.next;
         }
@@ -50,33 +45,31 @@ public class MyLinkedList {
         return "[" + result.substring(0, result.length() - 2) + "]";
     }
 
-    public ListNode stringToCycleNode(String input) {
+    public ListNode stringToCycleNode(String input, int pos) {
         int[] nodeValues = stringToIntegerArray(input);
         ListNode dummyRoot = new ListNode(0);
         ListNode ptr = dummyRoot;
         ListNode node = null;
         for (int i = 0; i < nodeValues.length; i++) {
-            if (i == nodeValues.length - 1) {
+            if (i == pos) {
+                node = new ListNode(nodeValues[i]);
                 ptr.next = node;
             } else {
-                if (i == 1) {
-                    node = new ListNode(nodeValues[i]);
-                    ptr.next = node;
-                } else {
-                    ptr.next = new ListNode(nodeValues[i]);
-                }
+                ptr.next = new ListNode(nodeValues[i]);
             }
             ptr = ptr.next;
         }
+        ptr.next = node;
         return dummyRoot.next;
     }
 
     public ListNode intersectNode = null;
+
     public ListNode stringToIntersectNode(String input) {
         int[] nodeValues = stringToIntegerArray(input);
         ListNode dummyRoot = new ListNode(0);
         ListNode ptr = dummyRoot;
-        for(int item : nodeValues) {
+        for (int item : nodeValues) {
             ListNode node = new ListNode(item);
             if (item == 8) {
                 intersectNode = node;
@@ -91,7 +84,7 @@ public class MyLinkedList {
         int[] nodeValues = stringToIntegerArray(input);
         ListNode dummyRoot = new ListNode(0);
         ListNode ptr = dummyRoot;
-        for(int item : nodeValues) {
+        for (int item : nodeValues) {
             ListNode node = new ListNode(item);
             if (item == 8) {
                 ptr.next = intersectNode;
