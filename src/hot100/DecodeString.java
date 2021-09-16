@@ -1,6 +1,7 @@
 package hot100;
 
 import java.io.IOException;
+import java.util.Stack;
 
 /**
  * @author taojie
@@ -8,39 +9,97 @@ import java.io.IOException;
 public class DecodeString {
 
     public static void main(String[] args) throws IOException {
-        String result = doTest("abc3[cd]xyz");
+        String result = decodeString("2[abc]3[cd]ef");
         System.out.println(result);
     }
 
     public static String doTest(String s) {
-        // pA + 2, pB
-        int pA = 0;
-        int pB = 0;
         int length = s.length();
-        StringBuilder sb = new StringBuilder();
-        while (pA < length) {
-            char c = s.charAt(pA);
+        int ptr = 0;
+        Stack<String> strStack = new Stack<>();
+        Stack<Integer> numStack = new Stack<>();
+        while (ptr < length) {
+            char c = s.charAt(ptr);
             if (Character.isDigit(c)) {
-                pB = pA;
-                int count = 0;
-                while (true) {
-                    if (s.charAt(pB) == ']') {
-                        break;
-                    }
-                    pB++;
-                }
-                String replaceS= s.substring(pA + 2, pB);
-                for (int i = 1; i <= c - '0'; i++) {
-                    sb.append(replaceS);
-                }
-                pA = pB + 1;
+                numStack.push(Character.getNumericValue(c));
             } else {
-                sb.append(c);
-                pA++;
+                if (c != ']') {
+                    strStack.push(Character.toString(c));
+                } else {
+                    String encodeStr = "";
+                    while (true) {
+                        String strElement = strStack.pop();
+                        if (Character.toString('[').equals(strElement)) {
+                            int numElement = numStack.pop();
+                            String waitPush = "";
+                            for (int i = 0; i < numElement; i++) {
+                                waitPush = waitPush + encodeStr;
+                            }
+                            strStack.push(waitPush);
+                            break;
+                        } else {
+                            encodeStr = strElement + encodeStr;
+                        }
+                    }
+                }
             }
+            ptr++;
         }
-        return sb.toString();
+        String result = "";
+        while (!strStack.isEmpty()) {
+            result = strStack.pop() + result;
+        }
+        return result;
     }
 
+    static String src;
+    static int ptr;
+
+    public static String decodeString(String s) {
+        src = s;
+        ptr = 0;
+        return getString();
+    }
+
+    public static String getString() {
+        if (ptr == src.length() || src.charAt(ptr) == ']') {
+            // String -> EPS
+            return "";
+        }
+
+        char cur = src.charAt(ptr);
+        int repTime = 1;
+        String ret = "";
+
+        if (Character.isDigit(cur)) {
+            // String -> Digits [ String ] String
+            // 解析 Digits
+            repTime = getDigits();
+            // 过滤左括号
+            ++ptr;
+            // 解析 String
+            String str = getString();
+            // 过滤右括号
+            ++ptr;
+            // 构造字符串
+            while (repTime-- > 0) {
+                ret += str;
+            }
+        } else if (Character.isLetter(cur)) {
+            // String -> Char String
+            // 解析 Char
+            ret = String.valueOf(src.charAt(ptr++));
+        }
+
+        return ret + getString();
+    }
+
+    public static int getDigits() {
+        int ret = 0;
+        while (ptr < src.length() && Character.isDigit(src.charAt(ptr))) {
+            ret = ret * 10 + src.charAt(ptr++) - '0';
+        }
+        return ret;
+    }
 
 }
