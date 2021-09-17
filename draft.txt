@@ -406,4 +406,6 @@ n=25,f(n) = 1 5;
 选择：房屋、是否打劫房屋
 状态转移方程：f(x) = f()
 
+最长连续序列（https://leetcode-cn.com/problems/longest-consecutive-sequence/）
+y-x=1
 
