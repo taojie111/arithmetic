@@ -85,3 +85,4 @@ leetcode已做题目
 76. 岛屿数量（https://leetcode-cn.com/problems/number-of-islands/）*
 77. 环形链表 II（https://leetcode-cn.com/problems/linked-list-cycle-ii/）*
 78. 字符串解码（https://leetcode-cn.com/problems/decode-string/）
+79. 课程表（https://leetcode-cn.com/problems/course-schedule/）*
