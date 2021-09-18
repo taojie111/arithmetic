@@ -6,13 +6,7 @@ import java.util.*;
 public class Test {
 
     public static void main(String[] args) {
-       String s = "abcaa好";
-       byte[] bytes = s.getBytes();
-       Map<Byte, Integer> map =new HashMap<>();
-       for (byte b: bytes) {
-           map.put(b, map.getOrDefault(b,0) + 1);
-       }
-        System.out.println(bytes);
+        minWindow("ADOBECODEBANC", "ABC");
     }
 
     static class User {
