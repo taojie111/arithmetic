@@ -88,3 +88,4 @@ leetcode已做题目
 79. 课程表（https://leetcode-cn.com/problems/course-schedule/）*
 80. 最长连续序列（https://leetcode-cn.com/problems/longest-consecutive-sequence/）*
 81. 找到字符串中所有字母异位词（https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/）*
+82. 单词拆分（https://leetcode-cn.com/problems/word-break/）
