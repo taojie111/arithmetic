@@ -1,14 +1,17 @@
 package hot100;
 
+/**
+ * @author taojie
+ */
 public class Rob2 {
 
     public static void main(String[] args) {
         int[] param = new int[]{2,7,9,3,1};
-        int result = rob(param);
+        int result = doTest(param);
         System.out.println(result);
     }
 
-    public static int rob(int[] nums) {
+    public static int doTest(int[] nums) {
         int[] dp = new int[nums.length + 1];
         dp[0] = 0;
         dp[1] = nums[0];

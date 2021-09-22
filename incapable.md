@@ -52,3 +52,4 @@
 50. 环形链表 II（https://leetcode-cn.com/problems/linked-list-cycle-ii/）（DetectCycle.java）(快慢指针)
 51. 字符串解码（https://leetcode-cn.com/problems/decode-string/）（DecodeString.java）(重点理解递归)
 52. 单词拆分（https://leetcode-cn.com/problems/word-break/）（WordBreak.java）(动态规划算法)
+53. 分割等和子集（https://leetcode-cn.com/problems/partition-equal-subset-sum/）（CanPartition.java）(动态规划算法)
