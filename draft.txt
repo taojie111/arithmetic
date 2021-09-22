@@ -409,3 +409,11 @@ n=25,f(n) = 1 5;
 最长连续序列（https://leetcode-cn.com/problems/longest-consecutive-sequence/）
 y-x=1
 
+打家劫舍（https://leetcode-cn.com/problems/house-robber/）
+状态：房屋数量
+选择：房间号
+方程：f(x)为偷盗的最大金额，f(x) = max{f(x - 1), f(x - 2) + arr[x]}
+初始值：f(0) = 0; f(1) = arr[1]; f(2) = max{arr[2], arr[1]}
+
+
+
