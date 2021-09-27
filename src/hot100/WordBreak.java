@@ -17,8 +17,9 @@ public class WordBreak {
         param.add("and");
         param.add("cat");*/
 
-        param.add("leetc");
-        param.add("leet");
+//        param.add("leetc");
+        param.add("le");
+        param.add("et");
         param.add("code");
         boolean result = wordBreak("leetcode",param);
         System.out.println(result);
