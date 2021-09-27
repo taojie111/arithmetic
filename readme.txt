@@ -90,4 +90,5 @@ leetcode已做题目
 81. 找到字符串中所有字母异位词（https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/）*
 82. 单词拆分（https://leetcode-cn.com/problems/word-break/）
 83. 打家劫舍（https://leetcode-cn.com/problems/house-robber/）*
-83. 分割等和子集（https://leetcode-cn.com/problems/partition-equal-subset-sum/）
+84. 分割等和子集（https://leetcode-cn.com/problems/partition-equal-subset-sum/）
+85. 目标和（https://leetcode-cn.com/problems/target-sum/）

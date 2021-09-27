@@ -53,3 +53,4 @@
 51. 字符串解码（https://leetcode-cn.com/problems/decode-string/）（DecodeString.java）(重点理解递归)
 52. 单词拆分（https://leetcode-cn.com/problems/word-break/）（WordBreak.java）(动态规划算法)
 53. 分割等和子集（https://leetcode-cn.com/problems/partition-equal-subset-sum/）（CanPartition.java）(动态规划算法)
+54. 目标和（https://leetcode-cn.com/problems/target-sum/）（FindTargetSumWays.java）(理解动态规划算法)

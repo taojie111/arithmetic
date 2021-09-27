@@ -6,6 +6,9 @@ import tree.common.TreeUtil;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * @author taojie
+ */
 public class ConvertBST {
 
     public static void main(String[] args) {
@@ -30,6 +33,6 @@ public class ConvertBST {
         int nodeValue = (rightValue == 0 ? sum : rightValue)  + root.getValue();
         root.setValue(nodeValue);
         int leftValue = dfs(root.getLeft(), nodeValue);
-        return nodeValue > leftValue ? nodeValue : leftValue;
+        return Math.max(nodeValue, leftValue);
     }
 }

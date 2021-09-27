@@ -22,7 +22,7 @@ public class CountSubstrings {
 
     public static int countSubstrings2(String s) {
         int n = s.length();
-        StringBuffer t = new StringBuffer("$#");
+        StringBuilder t = new StringBuilder("$#");
         for (int i = 0; i < n; ++i) {
             t.append(s.charAt(i));
             t.append('#');
