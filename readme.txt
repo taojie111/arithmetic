@@ -94,3 +94,6 @@ leetcode已做题目
 85. 目标和（https://leetcode-cn.com/problems/target-sum/）*
 86. 搜索二维矩阵 II（https://leetcode-cn.com/problems/search-a-2d-matrix-ii/）*
 87. 最大正方形（https://leetcode-cn.com/problems/maximal-square/）*
+88. 合并区间（https://leetcode-cn.com/problems/merge-intervals/）
+89. 单词搜索（https://leetcode-cn.com/problems/word-search/）
+90. 和为 K 的子数组（https://leetcode-cn.com/problems/subarray-sum-equals-k/）
