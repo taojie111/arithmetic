@@ -55,5 +55,5 @@
 53. 分割等和子集（https://leetcode-cn.com/problems/partition-equal-subset-sum/）（CanPartition.java）(动态规划算法)
 54. 目标和（https://leetcode-cn.com/problems/target-sum/）（FindTargetSumWays.java）(理解动态规划算法)
 55. 最大正方形（https://leetcode-cn.com/problems/maximal-square/）（MaximalSquare.java）(理解动态规划算法)
-56. 和为 K 的子数组（https://leetcode-cn.com/problems/subarray-sum-equals-k/）（SubarraySum.java）(前缀和)
+56. 和K的子数组（https://leetcode-cn.com/problems/subarray-sum-equals-k/）（SubarraySum.java）(前缀和)
 57. 零钱兑换（https://leetcode-cn.com/problems/coin-change/）（CoinChange.java）(动态规划算法)

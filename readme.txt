@@ -98,3 +98,4 @@ leetcode已做题目
 89. 单词搜索（https://leetcode-cn.com/problems/word-search/）
 90. 和为 K 的子数组（https://leetcode-cn.com/problems/subarray-sum-equals-k/）
 91. 零钱兑换（https://leetcode-cn.com/problems/coin-change/）
+92. 跳跃游戏（https://leetcode-cn.com/problems/jump-game/）*

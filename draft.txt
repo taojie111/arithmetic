@@ -429,4 +429,9 @@ f(x)(y) = f(x)(y)
 选择：硬币
 转移方程：f(x)
 
+跳跃游戏(https://leetcode-cn.com/problems/jump-game/)
+状态：数组索引
+选择：数组元素(index < x)
+转移方程：f(x)=f(x-1)
+
 
