@@ -424,4 +424,9 @@ f(x)(y)含义：数组前x个元素中，当第x个元素的值为状态y（+，
 初始值：f(0)(0) = 0,f(0)(1) = 0
 f(x)(y) = f(x)(y)
 
+零钱兑换(https://leetcode-cn.com/problems/coin-change/)
+状态：目标金额
+选择：硬币
+转移方程：f(x)
+
 
