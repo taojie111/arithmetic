@@ -99,3 +99,6 @@ leetcode已做题目
 90. 和为 K 的子数组（https://leetcode-cn.com/problems/subarray-sum-equals-k/）
 91. 零钱兑换（https://leetcode-cn.com/problems/coin-change/）
 92. 跳跃游戏（https://leetcode-cn.com/problems/jump-game/）*
+93. 删除链表的倒数第N个结点（https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/）*
+94. 搜索旋转排序数组（https://leetcode-cn.com/problems/search-in-rotated-sorted-array/）
+95. 在排序数组中查找元素的第一个和最后一个位置（https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/）
