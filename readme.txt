@@ -102,3 +102,8 @@ leetcode已做题目
 93. 删除链表的倒数第N个结点（https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/）*
 94. 搜索旋转排序数组（https://leetcode-cn.com/problems/search-in-rotated-sorted-array/）
 95. 在排序数组中查找元素的第一个和最后一个位置（https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/）
+96. 乘积最大子数组（https://leetcode-cn.com/problems/maximum-product-subarray/）
+97. 两数相加（https://leetcode-cn.com/problems/add-two-numbers/）
+98. 最短无序连续子数组（https://leetcode-cn.com/problems/shortest-unsorted-continuous-subarray/）
+99. 无重复字符的最长子串（https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/）
+100. 下一个排列（https://leetcode-cn.com/problems/next-permutation/）
