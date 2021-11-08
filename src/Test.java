@@ -6,7 +6,7 @@ import java.util.*;
 public class Test {
 
     public static void main(String[] args) {
-        minWindow("ADOBECODEBANC", "ABC");
+        System.out.println("test");
     }
 
     static class User {
