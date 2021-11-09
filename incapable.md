@@ -59,3 +59,4 @@
 57. 零钱兑换（https://leetcode-cn.com/problems/coin-change/）（CoinChange.java）(动态规划算法)
 58. 在排序数组中查找元素的第一个和最后一个位置（https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/）（SearchRange.java）(二分查找)
 59. 乘积最大子数组（https://leetcode-cn.com/problems/maximum-product-subarray/）（MaxProduct.java）(动态规划算法)
+60. 最长回文子串（https://leetcode-cn.com/problems/longest-palindromic-substring/）（LongestPalindrome.java）(动态规划算法、中心扩展)
