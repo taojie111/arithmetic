@@ -112,3 +112,4 @@ leetcode已做题目
 103. 三数之和（https://leetcode-cn.com/problems/3sum/）
 104. 戳气球（https://leetcode-cn.com/problems/burst-balloons/）
 105. 编辑距离（https://leetcode-cn.com/problems/edit-distance/）
+106. 接雨水（https://leetcode-cn.com/problems/trapping-rain-water/）
