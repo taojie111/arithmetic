@@ -808,4 +808,16 @@ public class TreeUtil {
         node.setRight(node22);
         return node;
     }
+
+    public static TreeNode getTree39() {
+        TreeNode node = new TreeNode();
+        node.setValue(1);
+        TreeNode node21 = new TreeNode();
+        node21.setValue(2);
+        TreeNode node22 = new TreeNode();
+        node22.setValue(3);
+        node.setLeft(node21);
+        node.setRight(node22);
+        return node;
+    }
 }
