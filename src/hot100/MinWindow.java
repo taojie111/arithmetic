@@ -8,7 +8,6 @@ public class MinWindow {
 
     public static void main(String[] args) {
         String result = minWindow("ADOBECODEBANC", "ABC");
-
     }
 
     static Map<Character, Integer> ori = new HashMap<Character, Integer>();
