@@ -122,3 +122,5 @@ leetcode已做题目
 113. 寻找两个正序数组的中位数（https://leetcode-cn.com/problems/median-of-two-sorted-arrays/）
 114. 最长有效括号（https://leetcode-cn.com/problems/longest-valid-parentheses/）
 115. 正则表达式匹配（https://leetcode-cn.com/problems/regular-expression-matching/）
+116. 一维数组的动态和（https://leetcode-cn.com/problems/running-sum-of-1d-array/）
+117. 所有奇数长度子数组的和（https://leetcode-cn.com/problems/sum-of-all-odd-length-subarrays/）
