@@ -71,3 +71,4 @@
 69. 最长有效括号（https://leetcode-cn.com/problems/longest-valid-parentheses/）（LongestValidParentheses.java）(动态规划、单调栈)
 70. 正则表达式匹配（https://leetcode-cn.com/problems/regular-expression-matching/）（IsMatch.java）(动态规划)
 71. 所有奇数长度子数组的和（https://leetcode-cn.com/problems/sum-of-all-odd-length-subarrays/）（SumOddLengthSubarrays.java）(前缀和)
+72. 形成两个异或相等数组的三元组数目（https://leetcode-cn.com/problems/count-triplets-that-can-form-two-arrays-of-equal-xor/）（CountTriplets.java）(前缀异或)
