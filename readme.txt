@@ -126,3 +126,5 @@ leetcode已做题目
 117. 所有奇数长度子数组的和（https://leetcode-cn.com/problems/sum-of-all-odd-length-subarrays/）
 118. 逐步求和得到正数的最小值（https://leetcode-cn.com/problems/minimum-value-to-get-positive-step-by-step-sum/）*
 119. 左右两边子数组的和相等（https://leetcode-cn.com/problems/tvdfij/）*
+120. 找到数组的中间位置（https://leetcode-cn.com/problems/find-the-middle-index-in-array/）*
+121. 检查是否区域内所有整数都被覆盖（https://leetcode-cn.com/problems/check-if-all-the-integers-in-a-range-are-covered/）
