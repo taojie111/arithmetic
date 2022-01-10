@@ -129,3 +129,4 @@ leetcode已做题目
 120. 找到数组的中间位置（https://leetcode-cn.com/problems/find-the-middle-index-in-array/）*
 121. 检查是否区域内所有整数都被覆盖（https://leetcode-cn.com/problems/check-if-all-the-integers-in-a-range-are-covered/）
 122. 形成两个异或相等数组的三元组数目（https://leetcode-cn.com/problems/count-triplets-that-can-form-two-arrays-of-equal-xor/）
+123.  除自身以外数组的乘积（https://leetcode-cn.com/problems/product-of-array-except-self/）*
