@@ -1,5 +1,8 @@
 package prefixSum;
 
+/**
+ * @author taojie
+ */
 public class ProductExceptSelf {
 
     public static void main(String[] args) {
