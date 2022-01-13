@@ -122,6 +122,8 @@ leetcode已做题目
 113. 寻找两个正序数组的中位数（https://leetcode-cn.com/problems/median-of-two-sorted-arrays/）
 114. 最长有效括号（https://leetcode-cn.com/problems/longest-valid-parentheses/）
 115. 正则表达式匹配（https://leetcode-cn.com/problems/regular-expression-matching/）
+
+四、前缀和
 116. 一维数组的动态和（https://leetcode-cn.com/problems/running-sum-of-1d-array/）*
 117. 所有奇数长度子数组的和（https://leetcode-cn.com/problems/sum-of-all-odd-length-subarrays/）
 118. 逐步求和得到正数的最小值（https://leetcode-cn.com/problems/minimum-value-to-get-positive-step-by-step-sum/）*
@@ -130,4 +132,7 @@ leetcode已做题目
 121. 检查是否区域内所有整数都被覆盖（https://leetcode-cn.com/problems/check-if-all-the-integers-in-a-range-are-covered/）
 122. 形成两个异或相等数组的三元组数目（https://leetcode-cn.com/problems/count-triplets-that-can-form-two-arrays-of-equal-xor/）
 123. 除自身以外数组的乘积（https://leetcode-cn.com/problems/product-of-array-except-self/）*
+
+五、并查集
 124. 由斜杠划分区域（https://leetcode-cn.com/problems/regions-cut-by-slashes/）
+125. 多余的边（https://leetcode-cn.com/problems/7LpjUW/）
