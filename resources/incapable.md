@@ -74,3 +74,4 @@
 72. 形成两个异或相等数组的三元组数目（https://leetcode-cn.com/problems/count-triplets-that-can-form-two-arrays-of-equal-xor/）（CountTriplets.java）(前缀异或)
 73. 由斜杠划分区域（https://leetcode-cn.com/problems/regions-cut-by-slashes/）（RegionsBySlashes.java）(并查集)(由斜杠划分区域.png)
 74. 多余的边（https://leetcode-cn.com/problems/7LpjUW/）（FindRedundantConnection.java）(并查集)
+75. 连接所有点的最小费用（https://leetcode-cn.com/problems/min-cost-to-connect-all-points/）（MinCostConnectPoints.java）(并查集、最小生成树、Kruskal算法)

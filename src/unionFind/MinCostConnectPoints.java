@@ -65,7 +65,11 @@ public class MinCostConnectPoints {
         }
 
         public int find(int x) {
-            return f[x] == x ? x : (f[x] = find(f[x]));
+            if (x == f[x]) {
+                return x;
+            }
+            int result = find(f[x]);
+            return result;
         }
 
         public boolean unionSet(int x, int y) {
