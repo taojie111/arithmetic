@@ -138,3 +138,4 @@ leetcode已做题目
 125. 多余的边（https://leetcode-cn.com/problems/7LpjUW/）
 126. 岛屿的最大面积（https://leetcode-cn.com/problems/ZL6zAn/）*
 127. 连接所有点的最小费用（https://leetcode-cn.com/problems/min-cost-to-connect-all-points/）
+128. 省份数量（https://leetcode-cn.com/problems/bLyHh0/）*
