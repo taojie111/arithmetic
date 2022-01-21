@@ -1,6 +1,10 @@
 package unionFind;
 
+/**
+ * @author taojie
+ */
 public class FindRedundantConnection {
+
     public static void main(String[] args) {
         int[][] param = new int[5][2];
         param[0] = new int[]{1,2};
@@ -8,11 +12,11 @@ public class FindRedundantConnection {
         param[2] = new int[]{3,4};
         param[3] = new int[]{1,4};
         param[4] = new int[]{1,5};
-        int[] result = findRedundantConnection(param);
+        int[] result = doTest(param);
         System.out.println(result);
     }
 
-    public static int[] findRedundantConnection(int[][] edges) {
+    public static int[] doTest(int[][] edges) {
         int nodesCount = edges.length;
         int[] parent = new int[nodesCount + 1];
         for (int i = 1; i <= nodesCount; i++) {

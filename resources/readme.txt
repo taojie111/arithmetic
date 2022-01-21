@@ -139,3 +139,4 @@ leetcode已做题目
 126. 岛屿的最大面积（https://leetcode-cn.com/problems/ZL6zAn/）*
 127. 连接所有点的最小费用（https://leetcode-cn.com/problems/min-cost-to-connect-all-points/）
 128. 省份数量（https://leetcode-cn.com/problems/bLyHh0/）*
+129. 连通网络的操作次数（https://leetcode-cn.com/problems/number-of-operations-to-make-network-connected/）*
