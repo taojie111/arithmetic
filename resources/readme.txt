@@ -144,3 +144,7 @@ leetcode已做题目
 六、数组
 130. 基于排列构建数组（https://leetcode-cn.com/problems/build-array-from-permutation/）*
 131. 数组串联（https://leetcode-cn.com/problems/concatenation-of-array/）*
+
+七、初级算法
+(1)、数组
+132. 删除有序数组中的重复项（https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/）
