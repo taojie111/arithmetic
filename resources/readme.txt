@@ -140,3 +140,7 @@ leetcode已做题目
 127. 连接所有点的最小费用（https://leetcode-cn.com/problems/min-cost-to-connect-all-points/）
 128. 省份数量（https://leetcode-cn.com/problems/bLyHh0/）*
 129. 连通网络的操作次数（https://leetcode-cn.com/problems/number-of-operations-to-make-network-connected/）*
+
+六、数组
+130. 基于排列构建数组（https://leetcode-cn.com/problems/build-array-from-permutation/）*
+131. 数组串联（https://leetcode-cn.com/problems/concatenation-of-array/）*
