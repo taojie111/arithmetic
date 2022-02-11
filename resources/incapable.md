@@ -76,3 +76,4 @@
 74. 多余的边（https://leetcode-cn.com/problems/7LpjUW/）（FindRedundantConnection.java）(并查集)
 75. 连接所有点的最小费用（https://leetcode-cn.com/problems/min-cost-to-connect-all-points/）（MinCostConnectPoints.java）(并查集、最小生成树、Kruskal算法)
 76. 删除有序数组中的重复项（https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/）（RemoveDuplicates.java）(快慢指针)
+77. 轮转数组（https://leetcode-cn.com/problems/rotate-array/）（Rotate.java）(数组翻转规则)
