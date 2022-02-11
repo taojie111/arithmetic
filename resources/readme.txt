@@ -151,3 +151,4 @@ leetcode已做题目
 133. 买卖股票的最佳时机 II（https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/）*
 134. 轮转数组（https://leetcode-cn.com/problems/rotate-array/）*
 135. 存在重复元素（https://leetcode-cn.com/problems/contains-duplicate/）*
+136. 只出现一次的数字（https://leetcode-cn.com/problems/single-number/）*
