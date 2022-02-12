@@ -152,3 +152,5 @@ leetcode已做题目
 134. 轮转数组（https://leetcode-cn.com/problems/rotate-array/）*
 135. 存在重复元素（https://leetcode-cn.com/problems/contains-duplicate/）*
 136. 只出现一次的数字（https://leetcode-cn.com/problems/single-number/）*
+137. 两个数组的交集 II（https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/）*
+138. 加一（https://leetcode-cn.com/problems/plus-one/）*
