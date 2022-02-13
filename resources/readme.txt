@@ -155,3 +155,4 @@ leetcode已做题目
 137. 两个数组的交集 II（https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/）*
 138. 加一（https://leetcode-cn.com/problems/plus-one/）*
 139. 移动零（https://leetcode-cn.com/problems/move-zeroes/）*
+140. 两数之和（https://leetcode-cn.com/problems/two-sum/）*
