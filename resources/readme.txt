@@ -154,3 +154,4 @@ leetcode已做题目
 136. 只出现一次的数字（https://leetcode-cn.com/problems/single-number/）*
 137. 两个数组的交集 II（https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/）*
 138. 加一（https://leetcode-cn.com/problems/plus-one/）*
+139. 移动零（https://leetcode-cn.com/problems/move-zeroes/）*
