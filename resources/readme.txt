@@ -156,3 +156,5 @@ leetcode已做题目
 138. 加一（https://leetcode-cn.com/problems/plus-one/）*
 139. 移动零（https://leetcode-cn.com/problems/move-zeroes/）*
 140. 两数之和（https://leetcode-cn.com/problems/two-sum/）*
+141. 有效的数独（https://leetcode-cn.com/problems/valid-sudoku/）
+142. 旋转图像（https://leetcode-cn.com/problems/rotate-image/）*
