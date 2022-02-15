@@ -158,3 +158,7 @@ leetcode已做题目
 140. 两数之和（https://leetcode-cn.com/problems/two-sum/）*
 141. 有效的数独（https://leetcode-cn.com/problems/valid-sudoku/）
 142. 旋转图像（https://leetcode-cn.com/problems/rotate-image/）*
+
+(2)、字符串
+143. 反转字符串（https://leetcode-cn.com/problems/reverse-string/）*
+144. 整数反转（https://leetcode-cn.com/problems/reverse-integer/）
