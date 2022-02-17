@@ -165,3 +165,4 @@ leetcode已做题目
 145. 字符串中的第一个唯一字符（https://leetcode-cn.com/problems/first-unique-character-in-a-string/）*
 146. 有效的字母异位词（https://leetcode-cn.com/problems/valid-anagram/）*
 147. 验证回文串（https://leetcode-cn.com/problems/valid-palindrome/）*
+148. 字符串转换整数 (atoi)（https://leetcode-cn.com/problems/string-to-integer-atoi/）

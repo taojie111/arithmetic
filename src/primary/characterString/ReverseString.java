@@ -1,4 +1,4 @@
-package primary.array;
+package primary.characterString;
 
 /**
  * @author taojie

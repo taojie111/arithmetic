@@ -1,4 +1,4 @@
-package primary.array;
+package primary.characterString;
 
 import java.util.HashMap;
 import java.util.Map;

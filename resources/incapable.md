@@ -79,3 +79,4 @@
 77. 轮转数组（https://leetcode-cn.com/problems/rotate-array/）（Rotate.java）(数组翻转规则)
 78. 两个数组的交集 II（https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/）（Intersect.java）(双指针法。两个数组都是有序的，使用双指针法查找重复的元素)
 79. 有效的数独（https://leetcode-cn.com/problems/valid-sudoku/）（IsValidSudoku.java）（多维数组）
+80. 字符串转换整数 (atoi)（https://leetcode-cn.com/problems/string-to-integer-atoi/）（MyAtoi.java）（状态机）
