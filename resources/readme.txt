@@ -164,3 +164,4 @@ leetcode已做题目
 144. 整数反转（https://leetcode-cn.com/problems/reverse-integer/）
 145. 字符串中的第一个唯一字符（https://leetcode-cn.com/problems/first-unique-character-in-a-string/）*
 146. 有效的字母异位词（https://leetcode-cn.com/problems/valid-anagram/）*
+147. 验证回文串（https://leetcode-cn.com/problems/valid-palindrome/）*
