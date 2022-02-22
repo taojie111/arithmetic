@@ -168,3 +168,4 @@ leetcode已做题目
 148. 字符串转换整数 (atoi)（https://leetcode-cn.com/problems/string-to-integer-atoi/）
 149. 实现strStr()（https://leetcode-cn.com/problems/implement-strstr/）
 150. 外观数列（https://leetcode-cn.com/problems/count-and-say/）*
+151. 最长公共前缀（https://leetcode-cn.com/problems/longest-common-prefix/）*
