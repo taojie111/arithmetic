@@ -166,3 +166,4 @@ leetcode已做题目
 146. 有效的字母异位词（https://leetcode-cn.com/problems/valid-anagram/）*
 147. 验证回文串（https://leetcode-cn.com/problems/valid-palindrome/）*
 148. 字符串转换整数 (atoi)（https://leetcode-cn.com/problems/string-to-integer-atoi/）
+149. 实现strStr()（https://leetcode-cn.com/problems/implement-strstr/）
