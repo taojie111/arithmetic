@@ -169,3 +169,6 @@ leetcode已做题目
 149. 实现strStr()（https://leetcode-cn.com/problems/implement-strstr/）
 150. 外观数列（https://leetcode-cn.com/problems/count-and-say/）*
 151. 最长公共前缀（https://leetcode-cn.com/problems/longest-common-prefix/）*
+
+(3)、链表
+152.  删除链表中的节点（https://leetcode-cn.com/problems/delete-node-in-a-linked-list/）*
