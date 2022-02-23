@@ -171,4 +171,6 @@ leetcode已做题目
 151. 最长公共前缀（https://leetcode-cn.com/problems/longest-common-prefix/）*
 
 (3)、链表
-152.  删除链表中的节点（https://leetcode-cn.com/problems/delete-node-in-a-linked-list/）*
+152. 删除链表中的节点（https://leetcode-cn.com/problems/delete-node-in-a-linked-list/）*
+153. 删除链表的倒数第 N 个结点（https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/）*
+154. 反转链表（https://leetcode-cn.com/problems/reverse-linked-list/）*
