@@ -33,7 +33,6 @@ public class MergeTwoLists {
             l2.next = mergeTwoLists2(l1, l2.next);
             return l2;
         }
-
     }
 
     public static ListNode doTest(ListNode node1, ListNode node2) {

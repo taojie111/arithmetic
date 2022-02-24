@@ -81,3 +81,4 @@
 79. 有效的数独（https://leetcode-cn.com/problems/valid-sudoku/）（IsValidSudoku.java）（多维数组）
 80. 字符串转换整数 (atoi)（https://leetcode-cn.com/problems/string-to-integer-atoi/）（MyAtoi.java）（状态机）
 81. 实现strStr()（https://leetcode-cn.com/problems/implement-strstr/）（StrStr.java）（状态机实现KMP算法）
+82. 合并两个有序链表（https://leetcode-cn.com/problems/merge-two-sorted-lists/）（MergeTwoLists.java）（重点理解递归算法）
