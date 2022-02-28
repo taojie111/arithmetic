@@ -175,3 +175,5 @@ leetcode已做题目
 153. 删除链表的倒数第 N 个结点（https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/）*
 154. 反转链表（https://leetcode-cn.com/problems/reverse-linked-list/）*
 155. 合并两个有序链表（https://leetcode-cn.com/problems/merge-two-sorted-lists/）*
+156. 回文链表（https://leetcode-cn.com/problems/palindrome-linked-list/）*
+157. 环形链表（https://leetcode-cn.com/problems/linked-list-cycle/）*
