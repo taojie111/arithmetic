@@ -177,3 +177,7 @@ leetcode已做题目
 155. 合并两个有序链表（https://leetcode-cn.com/problems/merge-two-sorted-lists/）*
 156. 回文链表（https://leetcode-cn.com/problems/palindrome-linked-list/）*
 157. 环形链表（https://leetcode-cn.com/problems/linked-list-cycle/）*
+
+(4)、树
+158. 二叉树的最大深度（https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/）*
+159. 验证二叉搜索树（https://leetcode-cn.com/problems/validate-binary-search-tree/）
