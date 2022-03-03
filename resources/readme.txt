@@ -183,3 +183,4 @@ leetcode已做题目
 159. 验证二叉搜索树（https://leetcode-cn.com/problems/validate-binary-search-tree/）
 160. 对称二叉树（https://leetcode-cn.com/problems/symmetric-tree/）*
 161. 二叉树的层序遍历（https://leetcode-cn.com/problems/binary-tree-level-order-traversal/）*
+162. 将有序数组转换为二叉搜索树（https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree/）*
