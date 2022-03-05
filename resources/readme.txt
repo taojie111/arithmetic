@@ -184,3 +184,6 @@ leetcode已做题目
 160. 对称二叉树（https://leetcode-cn.com/problems/symmetric-tree/）*
 161. 二叉树的层序遍历（https://leetcode-cn.com/problems/binary-tree-level-order-traversal/）*
 162. 将有序数组转换为二叉搜索树（https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree/）*
+
+(4)、排序和搜索
+162. 合并两个有序数组（https://leetcode-cn.com/problems/merge-sorted-array/）
