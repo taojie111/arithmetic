@@ -188,3 +188,7 @@ leetcode已做题目
 (4)、排序和搜索
 162. 合并两个有序数组（https://leetcode-cn.com/problems/merge-sorted-array/）
 163. 第一个错误的版本（https://leetcode-cn.com/problems/first-bad-version/）
+
+(5)、动态规划
+164. 爬楼梯（https://leetcode-cn.com/problems/climbing-stairs/）*
+165. 买卖股票的最佳时机（https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/）*
