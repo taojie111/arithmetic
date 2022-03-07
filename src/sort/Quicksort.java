@@ -39,4 +39,13 @@ public class Quicksort {
         array[i] = array[j];
         array[j] = temp;
     }
+
+    public static void doTest(int[] array) {
+        partition(array, 0 , array.length - 1);
+    }
+
+    public static void partition2(int[] array, int left, int right) {
+        int key = right;
+
+    }
 }
