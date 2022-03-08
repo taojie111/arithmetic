@@ -192,3 +192,5 @@ leetcode已做题目
 (5)、动态规划
 164. 爬楼梯（https://leetcode-cn.com/problems/climbing-stairs/）*
 165. 买卖股票的最佳时机（https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/）*
+166. 最大子数组和（https://leetcode-cn.com/problems/maximum-subarray/）*
+167. 打家劫舍（https://leetcode-cn.com/problems/house-robber/）*
