@@ -5,14 +5,14 @@ public class HeapSort {
     static int len;
 
     public static void main(String[] args) {
-        int[] param = new int[]{1,5,4,3,2,8,15,36,17,28,6};
+        int[] param = new int[]{7, 2, 6, 1, 8, 3, 5};
         long start = System.currentTimeMillis();
-        int[] result = heapSort2(param);
+        int[] result = heapSort(param);
         System.out.println(System.currentTimeMillis() - start);
     }
 
     public static int[] heapSort2(int[] array) {
-        len  = array.length;
+        len = array.length;
         if (len == 0) {
             return null;
         }
@@ -55,6 +55,7 @@ public class HeapSort {
      * 3、数组长度减1，
      * 4、重新构建大根堆
      * 5、循环执行2-4步，直到数组长度等于0
+     *
      * @param array
      * @return
      */
@@ -76,6 +77,7 @@ public class HeapSort {
 
     /**
      * 自顶向下调整以 i 为根的堆为大根堆
+     *
      * @param array
      * @param i
      */
@@ -98,11 +100,12 @@ public class HeapSort {
 
     /**
      * 自底向上构建初始大根堆
+     *
      * @param array
      */
     public static void buildMaxHeap(int[] array) {
         //从最后一个非叶子节点开始自底向上构造大根堆
-        for (int i = (len - 2) / 2; i >= 0; i--) {
+        for (int i = len/2 - 1; i >= 0; i--) {
             adjustHeap(array, i);
         }
     }

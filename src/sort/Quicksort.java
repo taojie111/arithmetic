@@ -3,7 +3,7 @@ package sort;
 public class Quicksort {
 
     public static void main(String[] args) {
-        int[] param = new int[]{1,5,4,3,2,8,15,36,6,28,17};
+        int[] param = new int[]{7, 2, 6, 1, 3, 5};
         long start = System.currentTimeMillis();
         quicksort(param, 0, param.length - 1);
         System.out.println(System.currentTimeMillis() - start);
@@ -46,6 +46,5 @@ public class Quicksort {
 
     public static void partition2(int[] array, int left, int right) {
         int key = right;
-
     }
 }
