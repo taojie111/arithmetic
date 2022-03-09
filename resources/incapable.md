@@ -85,3 +85,4 @@
 83. 验证二叉搜索树（https://leetcode-cn.com/problems/validate-binary-search-tree/）（IsValidBST.java）（验证每个节点的值是否在取值范围内）
 84. 对称二叉树（https://leetcode-cn.com/problems/symmetric-tree/）（IsSymmetric.java）（树对称，两个树递归）
 85. 合并两个有序数组（https://leetcode-cn.com/problems/merge-sorted-array/）（Merge.java）（两个数组升序排序，利用逆序遍历合并）
+86. 罗马数字转整数（https://leetcode-cn.com/problems/roman-to-integer/）（RomanToInt.java）

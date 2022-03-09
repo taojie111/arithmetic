@@ -194,3 +194,9 @@ leetcode已做题目
 165. 买卖股票的最佳时机（https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/）*
 166. 最大子数组和（https://leetcode-cn.com/problems/maximum-subarray/）*
 167. 打家劫舍（https://leetcode-cn.com/problems/house-robber/）*
+
+(6)、数学
+168. Fizz Buzz（https://leetcode-cn.com/problems/fizz-buzz/）*
+169. 计数质数（https://leetcode-cn.com/problems/count-primes/）*
+170. 3的幂（https://leetcode-cn.com/problems/power-of-three/）*
+171. 罗马数字转整数（https://leetcode-cn.com/problems/roman-to-integer/）
