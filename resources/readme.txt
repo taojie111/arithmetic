@@ -200,3 +200,6 @@ leetcode已做题目
 169. 计数质数（https://leetcode-cn.com/problems/count-primes/）*
 170. 3的幂（https://leetcode-cn.com/problems/power-of-three/）*
 171. 罗马数字转整数（https://leetcode-cn.com/problems/roman-to-integer/）
+
+(7)、其他
+172. 位1的个数（https://leetcode-cn.com/problems/number-of-1-bits/）*
