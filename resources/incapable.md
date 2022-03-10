@@ -86,3 +86,4 @@
 84. 对称二叉树（https://leetcode-cn.com/problems/symmetric-tree/）（IsSymmetric.java）（树对称，两个树递归）
 85. 合并两个有序数组（https://leetcode-cn.com/problems/merge-sorted-array/）（Merge.java）（两个数组升序排序，利用逆序遍历合并）
 86. 罗马数字转整数（https://leetcode-cn.com/problems/roman-to-integer/）（RomanToInt.java）
+87. 颠倒二进制位（https://leetcode-cn.com/problems/reverse-bits/）（ReverseBits.java）
