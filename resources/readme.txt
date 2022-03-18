@@ -206,3 +206,4 @@ leetcode已做题目
 173. 汉明距离（https://leetcode-cn.com/problems/hamming-distance/）*
 174. 颠倒二进制位（https://leetcode-cn.com/problems/reverse-bits/）
 175. 有效的括号（https://leetcode-cn.com/problems/valid-parentheses/）*
+176. 丢失的数字（https://leetcode-cn.com/problems/missing-number/）*
