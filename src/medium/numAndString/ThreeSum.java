@@ -2,73 +2,54 @@ package medium.numAndString;
 
 import java.util.*;
 
+/**
+ * @author taojie
+ */
 public class ThreeSum {
 
     public static void main(String[] args) {
-        int[] param = new int[]{3,0,-2,-1,1,2};
+        int[] param = new int[]{-2,-1,0,1,2,3};
         List<List<Integer>> result = doTest(param);
         System.out.println(result);
     }
 
     public static List<List<Integer>> doTest(int[] nums) {
-        if (nums.length == 0) {
-            return result;
-        }
-        LinkedList<Integer> track = new LinkedList<>();
-        boolean[] used = new boolean[nums.length];
-        dfs(nums, track, used);
-        return result;
-    }
-
-    public static List<List<Integer>> result = new ArrayList<>();
-
-    public static void dfs(int[] nums, LinkedList<Integer> track, boolean[] used) {
-        if (track.size() == 3) {
-            if (track.stream().mapToInt((e) -> e).sum() == 0) {
-                if (check(track)) {
-                    result.add(new LinkedList(track));
-                }
-            }
-            return;
-        }
-        for (int i = 0; i < nums.length; i++) {
-            int num = nums[i];
-            if (used[i]) {
+        int n = nums.length;
+        Arrays.sort(nums);
+        List<List<Integer>> ans = new ArrayList<List<Integer>>();
+        // 枚举 a
+        for (int first = 0; first < n; ++first) {
+            // 需要和上一次枚举的数不相同
+            if (first > 0 && nums[first] == nums[first - 1]) {
                 continue;
             }
-            used[i] = true;
-            track.add(num);
-            dfs(nums, track, used);
-            track.removeLast();
-            used[i] = false;
-        }
-    }
-
-    public static boolean check(LinkedList<Integer> track) {
-        int count1 = 0;
-        for (Integer i : track) {
-            if (i == 0) {
-                count1++;
-            }
-        }
-        for (List<Integer> list : result) {
-            boolean flag = true;
-            int count2 = 0;
-            for (Integer i : list) {
-                if (i == 0) {
-                    count2++;
+            // c 对应的指针初始指向数组的最右端
+            int third = n - 1;
+            int target = -nums[first];
+            // 枚举 b
+            for (int second = first + 1; second < n; ++second) {
+                // 需要和上一次枚举的数不相同
+                if (second > first + 1 && nums[second] == nums[second - 1]) {
+                    continue;
                 }
-            }
-            for (Integer i : track) {
-                if (!list.contains(i)) {
-                    flag = false;
+                // 需要保证 b 的指针在 c 的指针的左侧
+                while (second < third && nums[second] + nums[third] > target) {
+                    --third;
+                }
+                // 如果指针重合，随着 b 后续的增加
+                // 就不会有满足 a+b+c=0 并且 b<c 的 c 了，可以退出循环
+                if (second == third) {
                     break;
                 }
-            }
-            if (flag && count1 == count2) {
-                return false;
+                if (nums[second] + nums[third] == target) {
+                    List<Integer> list = new ArrayList<Integer>();
+                    list.add(nums[first]);
+                    list.add(nums[second]);
+                    list.add(nums[third]);
+                    ans.add(list);
+                }
             }
         }
-        return true;
+        return ans;
     }
 }

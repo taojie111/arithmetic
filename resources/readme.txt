@@ -207,3 +207,7 @@ leetcode已做题目
 174. 颠倒二进制位（https://leetcode-cn.com/problems/reverse-bits/）
 175. 有效的括号（https://leetcode-cn.com/problems/valid-parentheses/）*
 176. 丢失的数字（https://leetcode-cn.com/problems/missing-number/）*
+
+八、中级算法
+177. 三数之和（https://leetcode-cn.com/problems/3sum/）
+178. 矩阵置零（https://leetcode-cn.com/leetbook/read/top-interview-questions-medium/xvmy42/）*
