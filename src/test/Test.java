@@ -8,14 +8,18 @@ import java.util.*;
 public class Test {
 
     public static void main(String[] args) throws Exception {
-        char c1 = '严';
-        char c2='\u4E25';
-        char c3 = 97;
-        System.out.println(c1);
-        System.out.println(c2);
-        System.out.println(c3);
-        String str = new String(new char[]{c1});
-        System.out.println(Arrays.toString(str.getBytes("UTF-8")));
+        List<List<Integer>> result = new ArrayList<>();
+        List<Integer> ele = new ArrayList<>();
+        ele.add(1);
+        ele.add(2);
+        ele.add(3);
+        result.add(ele);
+        List<Integer> list = new ArrayList<>();
+        list.add(1);
+        list.add(2);
+        list.add(3);
+        boolean b = result.contains(list);
+        System.out.println(b);
     }
 
     static class User {
