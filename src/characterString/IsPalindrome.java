@@ -8,7 +8,7 @@ package characterString;
 public class IsPalindrome {
 
     public static void main(String[] args) {
-        int param = -101;
+        int param = 11;
         boolean result = doIsPalindrome(param);
         System.out.println(result);
     }

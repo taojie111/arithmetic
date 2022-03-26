@@ -90,3 +90,4 @@
 88. 三数之和（https://leetcode-cn.com/problems/3sum/）（ThreeSum.java）（数组排序后，利用双指针法求和）
 89. 矩阵置零（https://leetcode-cn.com/leetbook/read/top-interview-questions-medium/xvmy42/）（SetZeroes.java）（用常数空间复杂度解题）
 90. 字母异位词分组（https://leetcode-cn.com/problems/group-anagrams/）（GroupAnagrams.java）
+91. 最长回文子串（https://leetcode-cn.com/problems/longest-palindromic-substring/）（LongestPalindrome.java）（重点理解动态规划算法）
