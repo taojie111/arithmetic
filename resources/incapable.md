@@ -91,3 +91,4 @@
 89. 矩阵置零（https://leetcode-cn.com/leetbook/read/top-interview-questions-medium/xvmy42/）（SetZeroes.java）（用常数空间复杂度解题）
 90. 字母异位词分组（https://leetcode-cn.com/problems/group-anagrams/）（GroupAnagrams.java）
 91. 最长回文子串（https://leetcode-cn.com/problems/longest-palindromic-substring/）（LongestPalindrome.java）（重点理解动态规划算法）
+92. 递增的三元子序列（https://leetcode-cn.com/problems/increasing-triplet-subsequence/）（IncreasingTriplet.java）（1、满足i < j < k ，并且nums[i] < nums[j] < nums[k]的条件转换；2、贪心算法）

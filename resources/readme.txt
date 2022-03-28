@@ -214,3 +214,4 @@ leetcode已做题目
 179. 字母异位词分组（https://leetcode-cn.com/problems/group-anagrams/）
 180. 无重复字符的最长子串（https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/）*
 181. 最长回文子串（https://leetcode-cn.com/problems/longest-palindromic-substring/）*
+182. 递增的三元子序列（https://leetcode-cn.com/problems/increasing-triplet-subsequence/）
