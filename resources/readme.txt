@@ -228,3 +228,7 @@ leetcode已做题目
 185. 从前序与中序遍历序列构造二叉树（https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/）
 186. 填充每个节点的下一个右侧节点指针（https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node/）*
 187. 二叉搜索树中第K小的元素（https://leetcode-cn.com/problems/kth-smallest-element-in-a-bst/）*
+
+(3)、回溯
+188. 电话号码的字母组合（https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/）*
+189. 括号生成（https://leetcode-cn.com/problems/generate-parentheses/）
