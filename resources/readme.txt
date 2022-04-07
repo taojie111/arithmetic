@@ -232,3 +232,4 @@ leetcode已做题目
 (3)、回溯
 188. 电话号码的字母组合（https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/）*
 189. 括号生成（https://leetcode-cn.com/problems/generate-parentheses/）
+190. 全排列（https://leetcode-cn.com/problems/permutations/）*
