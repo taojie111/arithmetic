@@ -235,3 +235,6 @@ leetcode已做题目
 190. 全排列（https://leetcode-cn.com/problems/permutations/）*
 191. 子集（https://leetcode-cn.com/problems/subsets/）*
 192. 单词搜索（https://leetcode-cn.com/problems/word-search/）*
+
+(3)、排序和搜索
+193. 颜色分类（https://leetcode-cn.com/problems/sort-colors/）*
