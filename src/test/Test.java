@@ -4,22 +4,87 @@ import linked.commom.ListNode;
 import tree.common.TreeNode;
 
 import java.util.*;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class Test {
 
+    private static final Pattern QUERY_PARAM_PATTERN = Pattern.compile("([^&=]+)(=?)([^&]+)?");
+
+    private static final String SCHEME_PATTERN = "([^:/?#]+):";
+
+    private static final String HTTP_PATTERN = "(?i)(http|https):";
+
+    private static final String USERINFO_PATTERN = "([^@\\[/?#]*)";
+
+    private static final String HOST_IPV4_PATTERN = "[^\\[/?#:]*";
+
+    private static final String HOST_IPV6_PATTERN = "\\[[\\p{XDigit}:.]*[%\\p{Alnum}]*]";
+
+    private static final String HOST_PATTERN = "(" + HOST_IPV6_PATTERN + "|" + HOST_IPV4_PATTERN + ")";
+
+    private static final String PORT_PATTERN = "(\\d*(?:\\{[^/]+?})?)";
+
+    private static final String PATH_PATTERN = "([^?#]*)";
+
+    private static final String QUERY_PATTERN = "([^#]*)";
+
+    private static final String LAST_PATTERN = "(.*)";
+
+    private static final Pattern URI_PATTERN = Pattern.compile(
+            "^(" + SCHEME_PATTERN + ")?" + "(//(" + USERINFO_PATTERN + "@)?" + HOST_PATTERN + "(:" + PORT_PATTERN +
+                    ")?" + ")?" + PATH_PATTERN + "(\\?" + QUERY_PATTERN + ")?" + "(#" + LAST_PATTERN + ")?");
+
     public static void main(String[] args) throws Exception {
-        List<List<Integer>> result = new ArrayList<>();
-        List<Integer> ele = new ArrayList<>();
-        ele.add(1);
-        ele.add(2);
-        ele.add(3);
-        result.add(ele);
-        List<Integer> list = new ArrayList<>();
-        list.add(1);
-        list.add(2);
-        list.add(3);
-        boolean b = result.contains(list);
-        System.out.println(b);
+        match5("dev");
+    }
+
+    public static void match1(String str) {
+        Pattern pattern = Pattern.compile("[A-Z]");
+        Matcher matcher = pattern.matcher(str);
+        while (matcher.find()) {
+            System.out.println(matcher.group());
+        }
+    }
+
+    public static void match2(String str) {
+        Pattern pattern = Pattern.compile("^(([^:/?#]+):)?(//(([^@\\[/?#]*)@)?(\\[[\\p{XDigit}:.]*[%\\p{Alnum}]*]|[^\\[/?#:]*)(:(\\d*(?:\\{[^/]+?})?))?)?([^?#]*)(\\?([^#]*))?(#(.*))?");
+        Matcher matcher = URI_PATTERN.matcher("http://localhost:8080/index.html");
+        if (matcher.matches()) {
+            String url = matcher.group();
+            String scheme = matcher.group(2);
+            String userInfo = matcher.group(5);
+            String host = matcher.group(6);
+            String port = matcher.group(8);
+            String path = matcher.group(9);
+            String query = matcher.group(11);
+            String fragment = matcher.group(13);
+            boolean opaque = false;
+        }
+    }
+
+    public static void match3(String str) {
+        Pattern pattern = Pattern.compile("([1-9])([a-z]+)");
+        Matcher matcher = pattern.matcher(str);
+        while (matcher.find()) {
+            System.out.println(matcher.group());
+        }
+    }
+
+    public static void match4(String str) {
+        Pattern pattern = Pattern.compile("abc",1);
+        Matcher matcher = pattern.matcher(str);
+        while (matcher.find()) {
+            System.out.println(matcher.group());
+        }
+    }
+
+    public static void match5(String str) {
+        Pattern pattern = Pattern.compile("^m[a-z]*");
+        Matcher matcher = pattern.matcher(str);
+        while (matcher.find()) {
+            System.out.println(matcher.group());
+        }
     }
 
     static class User {
