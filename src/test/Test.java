@@ -36,7 +36,40 @@ public class Test {
                     ")?" + ")?" + PATH_PATTERN + "(\\?" + QUERY_PATTERN + ")?" + "(#" + LAST_PATTERN + ")?");
 
     public static void main(String[] args) throws Exception {
-        match5("dev");
+        recursion(5);
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    public static int recursion(int n) {
+        if (n == 1) {
+            return 1;
+        }
+        return recursion(n-1) + 1;
     }
 
     public static void match1(String str) {

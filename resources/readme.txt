@@ -241,3 +241,6 @@ leetcode已做题目
 194. 前K个高频元素（https://leetcode-cn.com/problems/top-k-frequent-elements/）*
 195. 数组中的第K个最大元素（https://leetcode-cn.com/problems/kth-largest-element-in-an-array/）
 196. 寻找峰值（https://leetcode-cn.com/problems/find-peak-element/）
+197. 在排序数组中查找元素的第一个和最后一个位置（https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/）*
+198. 合并区间（https://leetcode-cn.com/problems/merge-intervals/）*
+199. 搜索旋转排序数组（https://leetcode-cn.com/problems/search-in-rotated-sorted-array/）*
