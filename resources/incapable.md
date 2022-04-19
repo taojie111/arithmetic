@@ -95,3 +95,4 @@
 93. 从前序与中序遍历序列构造二叉树（https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/）（BuildTree.java）
 94. 括号生成（https://leetcode-cn.com/problems/generate-parentheses/）（GenerateParenthesis.java）（回溯算法）
 95. 寻找峰值（https://leetcode-cn.com/problems/find-peak-element/）（FindPeakElement.java）
+96. 跳跃游戏（https://leetcode-cn.com/problems/jump-game/）（CanJump.java）（重点理解贪心算法）
