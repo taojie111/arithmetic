@@ -8,30 +8,6 @@ public class LengthOfLIS {
         System.out.println(result);
     }
 
-    public static int doTest(int[] nums) {
-        int length = nums.length;
-        int[] dp = new int[length];
-        dp[0] = 1;
-        int max = nums[0];
-        int second = Integer.MIN_VALUE;
-        for (int i = 1; i < length; i++) {
-            int num = nums[i];
-            if (num < max) {
-                if (num > second) {
-                    max = num;
-                }
-                dp[i] = dp[i - 1];
-            } else if (num > max) {
-                second = max;
-                max = num;
-                dp[i] = dp[i - 1] + 1;
-            } else {
-                dp[i] = dp[i - 1];
-            }
-        }
-        return dp[length - 1];
-    }
-
     public static int lengthOfLIS(int[] nums) {
         if (nums.length == 0) {
             return 0;

@@ -251,3 +251,6 @@ leetcode已做题目
 202. 不同路径（https://leetcode-cn.com/problems/unique-paths/）*
 203. 零钱兑换（https://leetcode-cn.com/problems/coin-change/）*
 204. 最长递增子序列（https://leetcode-cn.com/problems/longest-increasing-subsequence/）
+
+(5)、数学
+205. 快乐数（https://leetcode-cn.com/problems/happy-number/）
