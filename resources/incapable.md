@@ -96,3 +96,4 @@
 94. 括号生成（https://leetcode-cn.com/problems/generate-parentheses/）（GenerateParenthesis.java）（回溯算法）
 95. 寻找峰值（https://leetcode-cn.com/problems/find-peak-element/）（FindPeakElement.java）
 96. 跳跃游戏（https://leetcode-cn.com/problems/jump-game/）（CanJump.java）（重点理解贪心算法）
+97. 最长递增子序列（https://leetcode-cn.com/problems/longest-increasing-subsequence/）（LengthOfLIS.java）（动态规划算法）
