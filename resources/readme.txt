@@ -254,3 +254,5 @@ leetcode已做题目
 
 (5)、数学
 205. 快乐数（https://leetcode-cn.com/problems/happy-number/）
+206. 阶乘后的零（https://leetcode-cn.com/problems/factorial-trailing-zeroes/）
+207. Excel 表列序号（https://leetcode-cn.com/problems/excel-sheet-column-number/）
