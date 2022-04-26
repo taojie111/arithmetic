@@ -256,3 +256,7 @@ leetcode已做题目
 205. 快乐数（https://leetcode-cn.com/problems/happy-number/）
 206. 阶乘后的零（https://leetcode-cn.com/problems/factorial-trailing-zeroes/）
 207. Excel 表列序号（https://leetcode-cn.com/problems/excel-sheet-column-number/）
+208. Pow(x, n)（https://leetcode-cn.com/problems/powx-n/）
+209. x 的平方根 （https://leetcode-cn.com/problems/sqrtx/）
+210. 两数相除 （https://leetcode-cn.com/problems/divide-two-integers/）
+211. 分数到小数（https://leetcode-cn.com/problems/fraction-to-recurring-decimal/）
