@@ -229,14 +229,14 @@ leetcode已做题目
 186. 填充每个节点的下一个右侧节点指针（https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node/）*
 187. 二叉搜索树中第K小的元素（https://leetcode-cn.com/problems/kth-smallest-element-in-a-bst/）*
 
-(3)、回溯
+(4)、回溯
 188. 电话号码的字母组合（https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/）*
 189. 括号生成（https://leetcode-cn.com/problems/generate-parentheses/）
 190. 全排列（https://leetcode-cn.com/problems/permutations/）*
 191. 子集（https://leetcode-cn.com/problems/subsets/）*
 192. 单词搜索（https://leetcode-cn.com/problems/word-search/）*
 
-(3)、排序和搜索
+(5)、排序和搜索
 193. 颜色分类（https://leetcode-cn.com/problems/sort-colors/）*
 194. 前K个高频元素（https://leetcode-cn.com/problems/top-k-frequent-elements/）*
 195. 数组中的第K个最大元素（https://leetcode-cn.com/problems/kth-largest-element-in-an-array/）
@@ -246,13 +246,13 @@ leetcode已做题目
 199. 搜索旋转排序数组（https://leetcode-cn.com/problems/search-in-rotated-sorted-array/）*
 200. 搜索二维矩阵 II（https://leetcode-cn.com/problems/search-a-2d-matrix-ii/）*
 
-(4)、动态规划
+(6)、动态规划
 201. 跳跃游戏（https://leetcode-cn.com/problems/jump-game/）*
 202. 不同路径（https://leetcode-cn.com/problems/unique-paths/）*
 203. 零钱兑换（https://leetcode-cn.com/problems/coin-change/）*
 204. 最长递增子序列（https://leetcode-cn.com/problems/longest-increasing-subsequence/）
 
-(5)、数学
+(8)、数学
 205. 快乐数（https://leetcode-cn.com/problems/happy-number/）
 206. 阶乘后的零（https://leetcode-cn.com/problems/factorial-trailing-zeroes/）
 207. Excel 表列序号（https://leetcode-cn.com/problems/excel-sheet-column-number/）
@@ -260,3 +260,7 @@ leetcode已做题目
 209. x 的平方根 （https://leetcode-cn.com/problems/sqrtx/）
 210. 两数相除 （https://leetcode-cn.com/problems/divide-two-integers/）
 211. 分数到小数（https://leetcode-cn.com/problems/fraction-to-recurring-decimal/）
+
+(9)、其他
+212. 两整数之和（https://leetcode-cn.com/problems/sum-of-two-integers/）*
+213. 逆波兰表达式求值（https://leetcode-cn.com/leetbook/read/top-interview-questions-medium/xw20mv/）*
