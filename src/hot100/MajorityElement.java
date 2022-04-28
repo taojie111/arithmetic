@@ -2,6 +2,7 @@ package hot100;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Random;
 
 public class MajorityElement {
 
@@ -51,6 +52,33 @@ public class MajorityElement {
     private static int countInRange(int[] nums, int num, int l, int h) {
         int count = 0;
         for (int i = l; i <= h; i++) {
+            if (nums[i] == num) {
+                count++;
+            }
+        }
+        return count;
+    }
+
+    public static int majorityElement2(int[] nums) {
+        Random rand = new Random();
+
+        int majorityCount = nums.length / 2;
+
+        while (true) {
+            int candidate = nums[randRange(rand, 0, nums.length)];
+            if (countOccurences(nums, candidate) > majorityCount) {
+                return candidate;
+            }
+        }
+    }
+
+    private static int randRange(Random rand, int min, int max) {
+        return rand.nextInt(max - min) + min;
+    }
+
+    private static int countOccurences(int[] nums, int num) {
+        int count = 0;
+        for (int i = 0; i < nums.length; i++) {
             if (nums[i] == num) {
                 count++;
             }
