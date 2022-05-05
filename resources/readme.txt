@@ -264,3 +264,5 @@ leetcode已做题目
 (9)、其他
 212. 两整数之和（https://leetcode-cn.com/problems/sum-of-two-integers/）*
 213. 逆波兰表达式求值（https://leetcode-cn.com/leetbook/read/top-interview-questions-medium/xw20mv/）*
+214. 多数元素（https://leetcode-cn.com/problems/majority-element/）*
+215. 任务调度器（https://leetcode-cn.com/problems/task-scheduler/）
