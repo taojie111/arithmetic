@@ -266,3 +266,8 @@ leetcode已做题目
 213. 逆波兰表达式求值（https://leetcode-cn.com/leetbook/read/top-interview-questions-medium/xw20mv/）*
 214. 多数元素（https://leetcode-cn.com/problems/majority-element/）*
 215. 任务调度器（https://leetcode-cn.com/problems/task-scheduler/）
+
+九、错题集
+216. 汉明距离（https://leetcode-cn.com/problems/hamming-distance/）*
+217. 只出现一次的数字（https://leetcode-cn.com/problems/single-number/）*
+218. 丢失的数字（https://leetcode-cn.com/problems/missing-number/）*
