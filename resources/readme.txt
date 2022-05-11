@@ -272,3 +272,6 @@ leetcode已做题目
 217. 只出现一次的数字（https://leetcode-cn.com/problems/single-number/）*
 218. 丢失的数字（https://leetcode-cn.com/problems/missing-number/）*
 219. 只出现一次的数字III（https://leetcode-cn.com/problems/single-number-iii/）
+220. 2的幂（https://leetcode-cn.com/problems/power-of-two/description/）*
+221. 4的幂（https://leetcode-cn.com/problems/power-of-four/）*
+222. 数字的补数（https://leetcode-cn.com/problems/number-complement/）
