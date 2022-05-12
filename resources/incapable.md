@@ -7,7 +7,7 @@
 7. 4的幂（https://leetcode-cn.com/problems/power-of-four/）（IsPowerOfFour.java）*
 8. 数字的补数（https://leetcode-cn.com/problems/number-complement/）（FindComplement.java）
 9. 最大单词长度乘积（https://leetcode-cn.com/problems/maximum-product-of-word-lengths/）(MaxProduct.java)
-10. 比特位计数（https://leetcode-cn.com/problmoveems/counting-bits/）（CountBits.java）(动态规划算法)
+10. 比特位计数（https://leetcode.cn/problems/counting-bits/）（CountBits.java）(动态规划算法)
 11. 移动零（https://leetcode-cn.com/problems/-zeroes/）（MoveZeroes.java）
 12. 重塑矩阵（https://leetcode-cn.com/problems/reshape-the-matrix/）（MatrixReshape.java）
 13. 最大连续 1 的个数（https://leetcode-cn.com/problems/max-consecutive-ones/）（FindMaxConsecutiveOnes.java）（重点看双指针法）
