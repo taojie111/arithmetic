@@ -277,3 +277,6 @@ leetcode已做题目
 222. 数字的补数（https://leetcode-cn.com/problems/number-complement/）
 223. 最大单词长度乘积（https://leetcode-cn.com/problems/maximum-product-of-word-lengths/）
 224. 比特位计数（https://leetcode.cn/problems/counting-bits/）*
+225. 移动零（https://leetcode-cn.com/problems/-zeroes/）*
+226. 重塑矩阵（https://leetcode-cn.com/problems/reshape-the-matrix/）*
+227. 最大连续 1 的个数（https://leetcode-cn.com/problems/max-consecutive-ones/）*

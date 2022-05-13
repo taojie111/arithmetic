@@ -6,8 +6,9 @@ package wrong;
 public class MoveZeroes {
 
     public static void main(String[] args) {
-        int[] param = new int[]{0, 0, 1};
+        int[] param = new int[]{1, 6, 0, 3, 0, 0, 8};
         doTest(param);
+        System.out.println(param);
     }
 
     public static void doTest(int[] nums) {
@@ -24,6 +25,17 @@ public class MoveZeroes {
                 }
             }
             index++;
+        }
+    }
+
+    public static void moveZeroes(int[] nums) {
+        int n = nums.length, left = 0, right = 0;
+        while (right < n) {
+            if (nums[right] != 0) {
+                swap(nums, left, right);
+                left++;
+            }
+            right++;
         }
     }
 
