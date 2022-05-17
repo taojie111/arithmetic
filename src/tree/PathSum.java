@@ -21,13 +21,13 @@ public class PathSum {
         return 1;
     }
 
-    public static int pathSum(TreeNode root, int sum) {
+    public static int pathSum(TreeNode root, int targetSum) {
         // key是前缀和, value是大小为key的前缀和出现的次数
         Map<Integer, Integer> prefixSumCount = new HashMap<>();
         // 前缀和为0的一条路径
         prefixSumCount.put(0, 1);
         // 前缀和的递归回溯思路
-        return recursionPathSum(root, prefixSumCount, sum, 0);
+        return recursionPathSum(root, prefixSumCount, targetSum, 0);
     }
 
     /**
