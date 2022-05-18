@@ -1,5 +1,9 @@
 package tree.common;
 
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
+
 /**
  * @author taojie
  */
@@ -366,7 +370,7 @@ public class TreeUtil {
         return node;
     }
 
-    public static TreeNode  getTree18() {
+    public static TreeNode getTree18() {
         TreeNode node = new TreeNode();
         node.setValue(3);
         TreeNode node21 = new TreeNode();
@@ -387,7 +391,7 @@ public class TreeUtil {
         return node;
     }
 
-    public static TreeNode  getTree19() {
+    public static TreeNode getTree19() {
         TreeNode node = new TreeNode();
         node.setValue(6);
         TreeNode node21 = new TreeNode();
@@ -423,7 +427,7 @@ public class TreeUtil {
         return node;
     }
 
-    public static TreeNode  getTree21() {
+    public static TreeNode getTree21() {
         TreeNode node = new TreeNode();
         node.setValue(5);
         TreeNode node21 = new TreeNode();
@@ -444,19 +448,19 @@ public class TreeUtil {
         return node;
     }
 
-    public static TreeNode  getTree22() {
+    public static TreeNode getTree22() {
         TreeNode node = new TreeNode();
         node.setValue(9);
         return node;
     }
 
-    public static TreeNode  getTree23() {
+    public static TreeNode getTree23() {
         TreeNode node = new TreeNode();
         node.setValue(11);
         return node;
     }
 
-    public static TreeNode  getTree24() {
+    public static TreeNode getTree24() {
         TreeNode node = new TreeNode();
         node.setValue(6);
         TreeNode node21 = new TreeNode();
@@ -687,7 +691,7 @@ public class TreeUtil {
         return node;
     }
 
-    public static TreeNode  getTree34() {
+    public static TreeNode getTree34() {
         TreeNode node = new TreeNode();
         node.setValue(1);
         TreeNode node21 = new TreeNode();
@@ -918,5 +922,37 @@ public class TreeUtil {
         node21.setLeft(node31);
         node22.setRight(node32);
         return node;
+    }
+
+    public static TreeNode createTree(Integer[] arr) {
+        Map<Integer, TreeNode> nodeMap = new HashMap<>(16);
+        TreeNode root = null;
+        int len = arr.length;
+        int nNum = 0;
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] == null) {
+                nNum++;
+                continue;
+            }
+            TreeNode node = nodeMap.get(i);
+            if (node == null) {
+                node = new TreeNode(arr[i]);
+                nodeMap.put(i, node);
+            }
+            if (i == 0) {
+                root = node;
+            }
+            int leftIndex = 2 * (i - nNum) + 1;
+            int rightIndex = 2 * (i - nNum) + 2;
+            if (leftIndex < len && arr[leftIndex] != null) {
+                node.left = new TreeNode(arr[leftIndex]);
+                nodeMap.put(leftIndex, node.left);
+            }
+            if (rightIndex < len && arr[rightIndex] != null) {
+                node.right = new TreeNode(arr[rightIndex]);
+                nodeMap.put(rightIndex, node.right);
+            }
+        }
+        return root;
     }
 }

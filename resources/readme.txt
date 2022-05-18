@@ -282,3 +282,4 @@ leetcode已做题目
 227. 最大连续 1 的个数（https://leetcode-cn.com/problems/max-consecutive-ones/）*
 228. 路径总和（https://leetcode-cn.com/problems/path-sum/）*
 229. 路径总和 III（https://leetcode-cn.com/problems/path-sum-iii/）
+230. 最长同值路径（https://leetcode-cn.com/problems/longest-univalue-path/）
