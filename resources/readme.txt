@@ -283,3 +283,4 @@ leetcode已做题目
 228. 路径总和（https://leetcode-cn.com/problems/path-sum/）*
 229. 路径总和 III（https://leetcode-cn.com/problems/path-sum-iii/）
 230. 最长同值路径（https://leetcode-cn.com/problems/longest-univalue-path/）
+231. 修剪二叉搜索树（https://leetcode-cn.com/problems/trim-a-binary-search-tree/）
