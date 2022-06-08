@@ -284,3 +284,4 @@ leetcode已做题目
 229. 路径总和 III（https://leetcode-cn.com/problems/path-sum-iii/）
 230. 最长同值路径（https://leetcode-cn.com/problems/longest-univalue-path/）
 231. 修剪二叉搜索树（https://leetcode-cn.com/problems/trim-a-binary-search-tree/）
+232. 二叉搜索树的最近公共祖先（https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-search-tree/）
