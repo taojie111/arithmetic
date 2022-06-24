@@ -285,3 +285,4 @@ leetcode已做题目
 230. 最长同值路径（https://leetcode-cn.com/problems/longest-univalue-path/）
 231. 修剪二叉搜索树（https://leetcode-cn.com/problems/trim-a-binary-search-tree/）
 232. 二叉搜索树的最近公共祖先（https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-search-tree/）
+233. 将有序数组转换为二叉搜索树（https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree/description/）*
