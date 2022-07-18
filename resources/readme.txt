@@ -286,3 +286,4 @@ leetcode已做题目
 231. 修剪二叉搜索树（https://leetcode-cn.com/problems/trim-a-binary-search-tree/）
 232. 二叉搜索树的最近公共祖先（https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-search-tree/）
 233. 将有序数组转换为二叉搜索树（https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree/description/）*
+234. 为运算表达式设计优先级（https://leetcode-cn.com/problems/different-ways-to-add-parentheses/）

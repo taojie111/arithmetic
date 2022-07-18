@@ -6,7 +6,7 @@ import java.util.List;
 public class OperatorPrecedence {
 
     public static void main(String[] args) {
-        List<Integer> result = diffWaysToComputeWithDp("2*3-4*5");
+        List<Integer> result = diffWaysToCompute("2*3-4*5");
         System.out.println(result);
     }
 
@@ -112,6 +112,7 @@ public class OperatorPrecedence {
 
     private static boolean isOperation(char c) {
         return c == '+' || c == '-' || c == '*';
+
     }
 
 }
