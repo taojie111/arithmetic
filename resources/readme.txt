@@ -289,3 +289,5 @@ leetcode已做题目
 234. 为运算表达式设计优先级（https://leetcode-cn.com/problems/different-ways-to-add-parentheses/）
 235. 买卖股票的最佳时机 II（https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/）*
 236. 种花问题（https://leetcode-cn.com/problems/can-place-flowers/）
+237. 划分字母区间（https://leetcode-cn.com/problems/partition-labels/）
+238. 判断子序列（https://leetcode-cn.com/problems/is-subsequence/）
