@@ -32,6 +32,7 @@ public class IsSubsequence {
             if (f[add][s.charAt(i) - 'a'] == m) {
                 return false;
             }
+
             add = f[add][s.charAt(i) - 'a'] + 1;
         }
         return true;
