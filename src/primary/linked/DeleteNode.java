@@ -13,7 +13,7 @@ public class DeleteNode {
     }
 
     public static void doTest(ListNode node) {
-        node.data = node.next.data;
+        node.val = node.next.val;
         node.next = node.next.next;
     }
 

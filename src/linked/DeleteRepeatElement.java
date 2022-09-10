@@ -24,7 +24,7 @@ public class DeleteRepeatElement {
         while(cycle != null) {
             ListNode temp = cycle.next;
             if (p != cycle) {
-                    if (p.data == cycle.data) {
+                    if (p.val == cycle.val) {
                     p.next = cycle.next;
                     cycle.next = null;
                 }
@@ -39,7 +39,7 @@ public class DeleteRepeatElement {
     public static ListNode deleteDuplicates(ListNode head) {
         ListNode curr = head;
         while (curr.next != null && curr != null) {
-            if (curr.data == curr.next.data) {
+            if (curr.val == curr.next.val) {
                 curr.next = curr.next.next;
             } else {
                 curr = curr.next;

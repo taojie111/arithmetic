@@ -1,10 +1,10 @@
 package linked.commom;
 
 public class ListNode {
-    public int data;
+    public int val;
     public ListNode next;
-    public ListNode(int data) {
-        this.data = data;
+    public ListNode(int val) {
+        this.val = val;
         next = null;
     }
 }

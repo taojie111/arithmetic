@@ -25,10 +25,10 @@ public class AddTwoNumbers {
             int value1 = 0;
             int value2 = 0;
             if (p1 != null) {
-                value1 = p1.data;
+                value1 = p1.val;
             }
             if (p2 != null) {
-                value2 = p2.data;
+                value2 = p2.val;
             }
             int sum = value1 + value2 + carry;
             carry = sum / 10;

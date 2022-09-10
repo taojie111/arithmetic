@@ -1,6 +1,5 @@
 package primary.linked;
 
-import linked.commom.LinkedListUtil;
 import linked.commom.ListNode;
 import linked.commom.MyLinkedList;
 
@@ -18,7 +17,7 @@ public class IsPalindrome {
         String s = "";
         StringBuilder sb = new StringBuilder();
         while (head!=null) {
-            sb.append(head.data);
+            sb.append(head.val);
             head = head.next;
         }
         s = sb.toString();
@@ -56,7 +55,7 @@ public class IsPalindrome {
             slow = slow.next;
         }
         while(pre != null && slow != null){
-            if(pre.data != slow.data){
+            if(pre.val != slow.val){
                 return false;
             }
             pre = pre.next;

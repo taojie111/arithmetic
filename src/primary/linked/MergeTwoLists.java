@@ -24,7 +24,7 @@ public class MergeTwoLists {
         ListNode p1 = l1;
         ListNode p2 = l2;
         while (p1 != null && p2 != null) {
-            if (p1.data <= p2.data) {
+            if (p1.val <= p2.val) {
                 p.next = p1;
                 p1 = p1.next;
             } else {
@@ -45,7 +45,7 @@ public class MergeTwoLists {
             p.next = l1 == null ? l2 : l1;
             return;
         }
-        if (l1.data <= l2.data) {
+        if (l1.val <= l2.val) {
             p.next = l1;
             p = p.next;
             doTest2(l1.next, l2);

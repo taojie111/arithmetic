@@ -20,7 +20,7 @@ public class IsPalindromeListNode {
         List<Integer> list = new ArrayList<>();
         ListNode p = head;
         while (p != null) {
-            list.add(p.data);
+            list.add(p.val);
             p = p.next;
         }
         int front = 0;
@@ -54,7 +54,7 @@ public class IsPalindromeListNode {
         for (int i = 0; i < count; i++) {
             copy = copy.next;
         }
-        if (head.data != copy.data) {
+        if (head.val != copy.val) {
             return false;
         }
         count++;

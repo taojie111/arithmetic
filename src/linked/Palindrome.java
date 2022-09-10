@@ -23,7 +23,7 @@ public class Palindrome {
     public static boolean isPalindrome(ListNode node) {
         List<Integer> list = new ArrayList<>();
         while (node != null) {
-            list.add(node.data);
+            list.add(node.val);
             node = node.next;
         }
         int front = 0;
@@ -53,7 +53,7 @@ public class Palindrome {
         if (!flag) {
             return false;
         }
-        if (currentNode.data != frontPointer.data) {
+        if (currentNode.val != frontPointer.val) {
             return false;
         }
         frontPointer = frontPointer.next;

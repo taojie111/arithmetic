@@ -292,3 +292,4 @@ leetcode已做题目
 237. 划分字母区间（https://leetcode-cn.com/problems/partition-labels/）
 238. 判断子序列（https://leetcode-cn.com/problems/is-subsequence/）
 239. 除数博弈（https://leetcode-cn.com/problems/divisor-game/）*
+240. 合并两个有序链表（https://leetcode-cn.com/problems/merge-two-sorted-lists/）*

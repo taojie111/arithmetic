@@ -30,19 +30,19 @@ public class OddEvenList {
         int index = 1;
         while (p != null) {
             if (index == 1) {
-                result = new ListNode(p.data);
+                result = new ListNode(p.val);
                 odd = result;
             } else {
                 if (index % 2 == 0) {
                     if (evenResult == null) {
-                        evenResult = new ListNode(p.data);
+                        evenResult = new ListNode(p.val);
                         even = evenResult;
                     } else {
-                        even.next = new ListNode(p.data);
+                        even.next = new ListNode(p.val);
                         even = even.next;
                     }
                 } else {
-                    odd.next = new ListNode(p.data);
+                    odd.next = new ListNode(p.val);
                     odd = odd.next;
                 }
             }

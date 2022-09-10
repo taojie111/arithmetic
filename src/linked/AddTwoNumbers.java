@@ -29,11 +29,11 @@ public class AddTwoNumbers {
         Deque<Integer> d1 = new LinkedList<Integer>();
         Deque<Integer> d2 = new LinkedList<Integer>();
         while (node1 != null) {
-            d1.push(node1.data);
+            d1.push(node1.val);
             node1 = node1.next;
         }
         while (node2 != null) {
-            d2.push(node2.data);
+            d2.push(node2.val);
             node2 = node2.next;
         }
 
@@ -58,11 +58,11 @@ public class AddTwoNumbers {
         Deque<Integer> stack1 = new LinkedList<Integer>();
         Deque<Integer> stack2 = new LinkedList<Integer>();
         while (l1 != null) {
-            stack1.push(l1.data);
+            stack1.push(l1.val);
             l1 = l1.next;
         }
         while (l2 != null) {
-            stack2.push(l2.data);
+            stack2.push(l2.val);
             l2 = l2.next;
         }
         int carry = 0;

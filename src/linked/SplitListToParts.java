@@ -26,7 +26,7 @@ public class SplitListToParts {
         for (int i = 0; i < k; ++i) {
             ListNode head = new ListNode(0), write = head;
             for (int j = 0; j < width + (i < rem ? 1 : 0); ++j) {
-                write = write.next = new ListNode(cur.data);
+                write = write.next = new ListNode(cur.val);
                 if (cur != null) {
                     cur = cur.next;
                 }

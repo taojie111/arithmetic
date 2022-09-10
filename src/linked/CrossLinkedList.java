@@ -1,12 +1,9 @@
 package linked;
 
-import com.sun.xml.internal.messaging.saaj.packaging.mime.util.LineInputStream;
 import linked.commom.ListNode;
 import linked.commom.MyLinkedList;
 
-import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStreamReader;
 
 public class CrossLinkedList {
 
@@ -45,7 +42,7 @@ public class CrossLinkedList {
             pB = pB == null ? headA : pB.next;
         }
         if (pA != null) {
-            System.out.println(pA.data);
+            System.out.println(pA.val);
         }
         return pA;
     }

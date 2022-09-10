@@ -66,7 +66,7 @@ public class MergeKLists {
         ListNode head = new ListNode(0);
         ListNode tail = head, aPtr = a, bPtr = b;
         while (aPtr != null && bPtr != null) {
-            if (aPtr.data < bPtr.data) {
+            if (aPtr.val < bPtr.val) {
                 tail.next = aPtr;
                 aPtr = aPtr.next;
             } else {
@@ -99,7 +99,7 @@ public class MergeKLists {
     public ListNode mergeKLists3(ListNode[] lists) {
         for (ListNode node: lists) {
             if (node != null) {
-                queue.offer(new Status(node.data, node));
+                queue.offer(new Status(node.val, node));
             }
         }
         ListNode head = new ListNode(0);
@@ -109,7 +109,7 @@ public class MergeKLists {
             tail.next = f.ptr;
             tail = tail.next;
             if (f.ptr.next != null) {
-                queue.offer(new Status(f.ptr.next.data, f.ptr.next));
+                queue.offer(new Status(f.ptr.next.val, f.ptr.next));
             }
         }
         return head.next;

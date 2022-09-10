@@ -39,7 +39,7 @@ public class MyLinkedList {
 
         String result = "";
         while (node != null) {
-            result += Integer.toString(node.data) + ", ";
+            result += Integer.toString(node.val) + ", ";
             node = node.next;
         }
         return "[" + result.substring(0, result.length() - 2) + "]";

@@ -26,7 +26,7 @@ public class MergeTwoLists {
             return l2;
         } else if (l2 == null) {
             return l1;
-        } else if (l1.data < l2.data) {
+        } else if (l1.val < l2.val) {
             l1.next = mergeTwoLists2(l1.next, l2);
             return l1;
         } else {
@@ -51,7 +51,7 @@ public class MergeTwoLists {
                 p1 = null;
                 continue;
             }
-            if (p1.data == p2.data) {
+            if (p1.val == p2.val) {
                 tmp1 = p1.next;
                 tmp2 = p2.next;
                 p1.next = p2;
@@ -59,10 +59,10 @@ public class MergeTwoLists {
                 pre = p1;
                 p1 = tmp1;
                 p2 = tmp2;
-            } else if (p1.data < p2.data) {
+            } else if (p1.val < p2.val) {
                 pre = p1;
                 p1 = p1.next;
-            } else if (p1.data > p2.data) {
+            } else if (p1.val > p2.val) {
                 tmp2 = p2.next;
                 pre.next = p2;
                 p2.next = p1;
@@ -78,7 +78,7 @@ public class MergeTwoLists {
 
         ListNode prev = prehead;
         while (l1 != null && l2 != null) {
-            if (l1.data <= l2.data) {
+            if (l1.val <= l2.val) {
                 prev.next = l1;
                 l1 = l1.next;
             } else {

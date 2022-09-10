@@ -3,8 +3,6 @@ package linked;
 import linked.commom.ListNode;
 import linked.commom.MyLinkedList;
 
-import java.util.List;
-
 public class MergeOrderedLinkedList {
 
     public static void main(String[] args) {
@@ -36,7 +34,7 @@ public class MergeOrderedLinkedList {
             return node2;
         } else if (node2 == null) {
             return node1;
-        } else if (node1.data < node2.data) {
+        } else if (node1.val < node2.val) {
             node1.next = recursionMerge(node1.next, node2);
             return node1;
         } else {
@@ -52,7 +50,7 @@ public class MergeOrderedLinkedList {
         ListNode p1 = node1;
         ListNode p2 = node2;
         while(p1 != null && p2 != null) {
-            if (p1.data <= p2.data) {
+            if (p1.val <= p2.val) {
                 pre.next = p1;
                 p1 = p1.next;
             } else {
