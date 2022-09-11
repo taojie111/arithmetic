@@ -293,3 +293,7 @@ leetcode已做题目
 238. 判断子序列（https://leetcode-cn.com/problems/is-subsequence/）
 239. 除数博弈（https://leetcode-cn.com/problems/divisor-game/）*
 240. 合并两个有序链表（https://leetcode-cn.com/problems/merge-two-sorted-lists/）*
+241. 对称二叉树（https://leetcode-cn.com/problems/symmetric-tree/）*
+242. 二叉树的最大深度（https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/）*
+243. 环形链表（https://leetcode-cn.com/problems/linked-list-cycle/）*
+244. 相交链表（https://leetcode-cn.com/problems/intersection-of-two-linked-lists/）*

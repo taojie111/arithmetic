@@ -26,10 +26,10 @@
 26. 判断子序列（https://leetcode-cn.com/problems/is-subsequence/）（IsSubsequence.java）(动态规划算法)
 27. 除数博弈（https://leetcode-cn.com/problems/divisor-game/）（DivisorGame.java）(动态规划算法)*
 27. 合并两个有序链表（https://leetcode-cn.com/problems/merge-two-sorted-lists/）（MergeTwoLists.java）(重点看递归)*
-28. 对称二叉树（https://leetcode-cn.com/problems/symmetric-tree/）（IsSymmetric.java）
-29. 二叉树的最大深度（https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/）（MaxDepth.java）
-30. 环形链表（https://leetcode-cn.com/problems/linked-list-cycle/）（HasCycle.java）
-31. 相交链表（https://leetcode-cn.com/problems/intersection-of-two-linked-lists/）（IntersectionNode.java）
+28. 对称二叉树（https://leetcode-cn.com/problems/symmetric-tree/）（IsSymmetric.java）*
+29. 二叉树的最大深度（https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/）（MaxDepth.java）*
+30. 环形链表（https://leetcode-cn.com/problems/linked-list-cycle/）（HasCycle.java）*
+31. 相交链表（https://leetcode-cn.com/problems/intersection-of-two-linked-lists/）（IntersectionNode.java）*
 32. 多数元素（https://leetcode-cn.com/problems/majority-element/）（MajorityElement.java）(重点看分治算法)
 32. 找到所有数组中消失的数字（https://leetcode-cn.com/problems/find-all-numbers-disappeared-in-an-array/）（FindDisappearedNumbers.java）(重点理解官方解法)
 33. 子集（https://leetcode-cn.com/problems/subsets/）（Subsets.java）(位运算巧妙用法、递归回溯算法)
