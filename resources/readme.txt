@@ -297,3 +297,6 @@ leetcode已做题目
 242. 二叉树的最大深度（https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/）*
 243. 环形链表（https://leetcode-cn.com/problems/linked-list-cycle/）*
 244. 相交链表（https://leetcode-cn.com/problems/intersection-of-two-linked-lists/）*
+245. 多数元素（https://leetcode-cn.com/problems/majority-element/）*
+246. 找到所有数组中消失的数字（https://leetcode-cn.com/problems/find-all-numbers-disappeared-in-an-array/）
+247. 子集（https://leetcode-cn.com/problems/subsets/）
