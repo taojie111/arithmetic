@@ -300,3 +300,5 @@ leetcode已做题目
 245. 多数元素（https://leetcode-cn.com/problems/majority-element/）*
 246. 找到所有数组中消失的数字（https://leetcode-cn.com/problems/find-all-numbers-disappeared-in-an-array/）
 247. 子集（https://leetcode-cn.com/problems/subsets/）
+248. 旋转图像（https://leetcode-cn.com/problems/rotate-image/）*
+249. 根据身高重建队列（https://leetcode-cn.com/problems/queue-reconstruction-by-height/）

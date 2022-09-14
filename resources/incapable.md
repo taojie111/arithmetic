@@ -33,7 +33,7 @@
 32. 多数元素（https://leetcode-cn.com/problems/majority-element/）（MajorityElement.java）(重点看分治算法)*
 32. 找到所有数组中消失的数字（https://leetcode-cn.com/problems/find-all-numbers-disappeared-in-an-array/）（FindDisappearedNumbers.java）(重点理解官方解法)
 33. 子集（https://leetcode-cn.com/problems/subsets/）（Subsets.java）(位运算巧妙用法、递归回溯算法)
-34. 旋转图像（https://leetcode-cn.com/problems/rotate-image/）（rotate.java）(重点理解矩形90度旋转的技巧)
+34. 旋转图像（https://leetcode-cn.com/problems/rotate-image/）（rotate.java）(重点理解矩形90度旋转的技巧)*
 35. 根据身高重建队列（https://leetcode-cn.com/problems/queue-reconstruction-by-height/）（reconstructQueue.java）
 36. 组合总和（https://leetcode-cn.com/problems/combination-sum/）（CombinationSum.java）(递归回溯算法)
 37. 二叉树展开为链表（https://leetcode-cn.com/problems/flatten-binary-tree-to-linked-list/）（Flatten.java）(重点理解空间复杂度为O(1)的方法)
