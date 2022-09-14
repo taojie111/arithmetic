@@ -9,7 +9,7 @@ import java.util.List;
 public class Subsets {
 
     public static void main(String[] args) {
-        int[] param = new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16,1,1,1,1,1,1};
+        int[] param = new int[]{1, 2, 3};
         List<List<Integer>> result = subsets(param);
         System.out.println(result.size());
         System.out.println(result.size() == dp(param));
@@ -70,5 +70,22 @@ public class Subsets {
         dfs(cur + 1, nums);
         t.remove(t.size() - 1);
         dfs(cur + 1, nums);
+    }
+
+    public static List<List<Integer>> subsets2(int[] nums) {
+        int len = nums.length;
+        List<Integer> t = new ArrayList<Integer>();
+        List<List<Integer>> ans = new ArrayList<List<Integer>>();
+        for (int mask = 0; mask < (1 << len); mask++) {
+            t.clear();
+            for (int i = 0; i < nums.length; i++) {
+                int num = nums[i];
+                if ((mask & (1 << i)) != 0) {
+                    t.add(nums[i]);
+                }
+            }
+            ans.add(new ArrayList<>(t));
+        }
+        return ans;
     }
 }
