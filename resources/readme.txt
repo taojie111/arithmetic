@@ -302,3 +302,7 @@ leetcode已做题目
 247. 子集（https://leetcode-cn.com/problems/subsets/）
 248. 旋转图像（https://leetcode-cn.com/problems/rotate-image/）*
 249. 根据身高重建队列（https://leetcode-cn.com/problems/queue-reconstruction-by-height/）
+250. 组合总和（https://leetcode-cn.com/problems/combination-sum/）*
+251. 二叉树展开为链表（https://leetcode-cn.com/problems/flatten-binary-tree-to-linked-list/）*
+252. 从前序与中序遍历序列构造二叉树（https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/）*
+253. 不同的二叉搜索树（https://leetcode-cn.com/problems/unique-binary-search-trees/）

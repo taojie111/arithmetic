@@ -36,8 +36,8 @@
 34. 旋转图像（https://leetcode-cn.com/problems/rotate-image/）（rotate.java）(重点理解矩形90度旋转的技巧)*
 35. 根据身高重建队列（https://leetcode-cn.com/problems/queue-reconstruction-by-height/）（reconstructQueue.java）
 36. 组合总和（https://leetcode-cn.com/problems/combination-sum/）（CombinationSum.java）(递归回溯算法)
-37. 二叉树展开为链表（https://leetcode-cn.com/problems/flatten-binary-tree-to-linked-list/）（Flatten.java）(重点理解空间复杂度为O(1)的方法)
-38. 从前序与中序遍历序列构造二叉树（https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/）（BuildTree.java）
+37. 二叉树展开为链表（https://leetcode-cn.com/problems/flatten-binary-tree-to-linked-list/）（Flatten.java）(重点理解空间复杂度为O(1)的方法)*
+38. 从前序与中序遍历序列构造二叉树（https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/）（BuildTree.java）*
 39. 不同的二叉搜索树（https://leetcode-cn.com/problems/unique-binary-search-trees/）（NumTrees.java）(动态规划算法)
 40. 二叉树的最近公共祖先（https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/）（LowestCommonAncestor.java）
 41. 每日温度（https://leetcode-cn.com/problems/daily-temperatures/）（DailyTemperatures.java）
